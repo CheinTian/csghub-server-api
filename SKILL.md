@@ -1,9 +1,6 @@
 ---
 name: csghub-server-api
 description: CSGHub Server API.. Use when working with the CSGHub Server API or when the user needs to interact with this API.
-metadata:
-  api-version: "1.0"
-  openapi-version: "3.0.1"
 ---
 
 # CSGHub Server API
