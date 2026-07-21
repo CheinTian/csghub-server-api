@@ -7,3 +7,4 @@
 | POST | `/evaluations` | run model evaluation | [View](../operations/post-evaluations.md) |
 | GET | `/evaluations/{id}` | get model evaluation | [View](../operations/get-evaluations-id.md) |
 | DELETE | `/evaluations/{id}` | delete model evaluation | [View](../operations/delete-evaluations-id.md) |
+| GET | `/evaluations/{id}/logs` | get evaluation job logs | [View](../operations/get-evaluations-id-logs.md) |

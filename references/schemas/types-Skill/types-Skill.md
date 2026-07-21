@@ -15,6 +15,7 @@
 | `downloads` | integer | No |  |
 | `hf_path` | string | No |  |
 | `id` | integer | No |  |
+| `latest_version` | string | No | Version information |
 | `license` | string | No |  |
 | `likes` | integer | No |  |
 | `mirror_task_status` | [types.MirrorTaskStatus](types-MirrorTaskStatus.md) | No |  |
@@ -36,4 +37,5 @@
 | `updated_at` | string | No |  |
 | `user` | [types.User](types-User.md) | No |  |
 | `user_likes` | boolean | No |  |
+| `versions` | types.SkillVersion[] | No |  |
 

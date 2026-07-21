@@ -14,6 +14,10 @@ tagIDs
 
 **Content Types:** `application/json`
 
+**Schema** (inline):
+
+Array
+
 ## Responses
 
 | Status | Description |

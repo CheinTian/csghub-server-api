@@ -12,7 +12,8 @@
 | GET | `/organization/{namespace}/collections` | Get organization Collections | [View](../operations/get-organization-namespace-collections.md) |
 | GET | `/organization/{namespace}/datasets` | Get organization datasets | [View](../operations/get-organization-namespace-datasets.md) |
 | GET | `/organization/{namespace}/evaluations` | Get organization evaluation jobs | [View](../operations/get-organization-namespace-evaluations.md) |
-| GET | `/organization/{namespace}/finetunes` | Get organization finetune jobs | [View](../operations/get-organization-namespace-finetunes.md) |
+| GET | `/organization/{namespace}/finetune/instances` | Get organization finetune instances | [View](../operations/get-organization-namespace-finetune-instances.md) |
+| GET | `/organization/{namespace}/finetune/jobs` | Get organization finetune jobs | [View](../operations/get-organization-namespace-finetune-jobs.md) |
 | GET | `/organization/{namespace}/mcps` | Get organization mcp servers | [View](../operations/get-organization-namespace-mcps.md) |
 | GET | `/organization/{namespace}/models` | Get organization models | [View](../operations/get-organization-namespace-models.md) |
 | GET | `/organization/{namespace}/notebooks` | Get organization notebooks | [View](../operations/get-organization-namespace-notebooks.md) |

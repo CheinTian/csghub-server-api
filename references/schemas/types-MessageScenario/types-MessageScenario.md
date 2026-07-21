@@ -19,6 +19,7 @@
 - `weekly-recharges`
 - `deployment`
 - `negative-balance`
+- `resource-application`
 - `inviter-pending-award`
 - `inviter-award`
 - `invitee-award`

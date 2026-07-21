@@ -13,8 +13,10 @@ Get LLMConfig in database. Return a list of LLM configurations with optional fil
 | `page` | query | integer | No | define which batch of results to retrieve |
 | `per` | query | integer | No | define the batch size to return in a single response |
 | `keyword` | query | string | No | search in model_name |
-| `type` | query | integer | No | search in type (e.g., 1: optimization, 2: comparison) |
+| `types` | query | integer[] | No | search by type flags (e.g., 1: optimization, 2: comparison, 4: summary readme, 8: mcp scan, 16: external); repeat for multiple types |
 | `enabled` | query | boolean | No | search in enabled |
+| `sort_by` | query | enum: model_size_b, updated_at | No | sort by field |
+| `sort_order` | query | enum: ASC, DESC | No | sort order |
 
 ## Responses
 

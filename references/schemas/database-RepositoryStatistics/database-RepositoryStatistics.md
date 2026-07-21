@@ -9,6 +9,7 @@
 | `branch` | string | No |  |
 | `createdAt` | string | No |  |
 | `id` | integer | No |  |
+| `lastCommitSize` | integer | No |  |
 | `lfsSize` | integer | No |  |
 | `nonLfsSize` | integer | No |  |
 | `repository` | object | No | Relations |

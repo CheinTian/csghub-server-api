@@ -13,6 +13,7 @@
 | `id` | integer | No |  |
 | `image` | string | No |  |
 | `namespace` | string | No | Namespace of the workflow |
+| `pay_mode` | [types.PayMode](types-PayMode.md) | No |  |
 | `reason` | string | No |  |
 | `repo_ids` | string[] | No |  |
 | `repo_type` | string | No |  |

@@ -11,6 +11,7 @@ List recharges by user name, order no, recharge status, payment type and time ra
 | Name | In | Type | Required | Description |
 |------|------|------|----------|-------------|
 | `user_name` | query | string | No | User name |
+| `org_name` | query | string | No | Organization name |
 | `order_no` | query | string | No | Order number |
 | `recharge_status` | query | string | No | Recharge status |
 | `recharge_payment_type` | query | string | No | Recharge payment type |

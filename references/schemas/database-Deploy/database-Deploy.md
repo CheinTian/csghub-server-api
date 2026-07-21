@@ -29,6 +29,7 @@ running image of cluster, comes from builder or pre-define |
 | `node_affinity` | [v1.NodeAffinity](v1-NodeAffinity.md) | No |  |
 | `order_detail_id` | integer | No |  |
 | `owner_namespace` | string | No |  |
+| `pd` | [types.PDConfig](types-PDConfig.md) | No |  |
 | `queue_name` | string | No |  |
 | `reason` | string | No |  |
 | `repo_id` | integer | No | repository_id of model/space/code/dataset |
@@ -39,8 +40,9 @@ running image of cluster, comes from builder or pre-define |
 | `sku` | string | No |  |
 | `space_id` | integer | No | space_id to deploy, it's 0 if deploy model |
 | `status` | integer | No |  |
+| `status_update_at` | string | No |  |
 | `svc_name` | string | No |  |
-| `task` | object | No | text-generation,text-to-image,text-to-speech |
+| `task` | object | No | text-generation,text-to-image,image-to-image,text-to-speech |
 | `template` | string | No |  |
 | `timeout` | integer | No |  |
 | `tolerations` | types.Toleration[] | No |  |

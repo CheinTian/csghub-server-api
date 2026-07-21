@@ -9,7 +9,7 @@
 | Name | In | Type | Required | Description |
 |------|------|------|----------|-------------|
 | `sku_type` | query | enum: 1, 2 | Yes | sku_type |
-| `sku_kinds` | query | string[] | Yes | sku_kinds |
+| `sku_kind` | query | string | Yes | JSON array of SKU kinds, e.g. [4,5,7] |
 | `resource_id` | query | string | No | resource_id |
 | `current_user` | query | string | Yes | current_user |
 

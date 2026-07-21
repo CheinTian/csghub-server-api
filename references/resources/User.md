@@ -5,6 +5,8 @@
 | Method | Path | Summary | Details |
 |--------|------|---------|----------|
 | GET | `/internal/user/emails` | Get all user emails for internal services | [View](../operations/get-internal-user-emails.md) |
+| GET | `/user/admin_emails` | Get administrator email addresses | [View](../operations/get-user-admin-emails.md) |
+| GET | `/user/admin_uuids` | Get administrator user UUIDs | [View](../operations/get-user-admin-uuids.md) |
 | POST | `/user/email-verification-code/{email}` | GenerateVerificationCodeAndSendEmail | [View](../operations/post-user-email-verification-code-email.md) |
 | GET | `/user/emails` | Get all user emails | [View](../operations/get-user-emails.md) |
 | PUT | `/user/labels` | Update user labels | [View](../operations/put-user-labels.md) |

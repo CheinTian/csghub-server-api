@@ -33,6 +33,10 @@
 | DELETE | `/models/{namespace}/{name}/serverless` | remove a serverless service | [View](../operations/delete-models-namespace-name-serverless.md) |
 | GET | `/models/{namespace}/{name}/serverless/{id}` | Get repo serverless detail | [View](../operations/get-models-namespace-name-serverless-id.md) |
 | PUT | `/models/{namespace}/{name}/serverless/{id}` | Update serverless parameters | [View](../operations/put-models-namespace-name-serverless-id.md) |
+| POST | `/models/{namespace}/{name}/serverless/{id}/benchmark` | Trigger serverless benchmark | [View](../operations/post-models-namespace-name-serverless-id-benchmark.md) |
+| GET | `/models/{namespace}/{name}/serverless/{id}/benchmark/latest` | Get latest serverless benchmark result | [View](../operations/get-models-namespace-name-serverless-id-benchmark-latest.md) |
+| GET | `/models/{namespace}/{name}/serverless/{id}/benchmarks` | List serverless benchmark results | [View](../operations/get-models-namespace-name-serverless-id-benchmarks.md) |
+| GET | `/models/{namespace}/{name}/serverless/{id}/benchmarks/{benchmark_id}` | Get serverless benchmark detail | [View](../operations/get-models-namespace-name-serverless-id-benchmarks-benchmark-id.md) |
 | GET | `/models/{namespace}/{name}/serverless/{id}/logs/{instance}` | get serverless logs | [View](../operations/get-models-namespace-name-serverless-id-logs-instance.md) |
 | PUT | `/models/{namespace}/{name}/serverless/{id}/start` | Start a model serverless | [View](../operations/put-models-namespace-name-serverless-id-start.md) |
 | GET | `/models/{namespace}/{name}/serverless/{id}/status` | get serverless status | [View](../operations/get-models-namespace-name-serverless-id-status.md) |

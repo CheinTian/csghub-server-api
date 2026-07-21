@@ -9,6 +9,7 @@
 | `content` | string | No |  |
 | `created_at` | string | No |  |
 | `feedback` | [types.AgentSessionHistoryFeedback](types-AgentSessionHistoryFeedback.md) | No |  |
+| `feedback_reason` | string | No |  |
 | `id` | integer | No |  |
 | `is_rewritten` | boolean | No |  |
 | `msg_uuid` | string | No |  |

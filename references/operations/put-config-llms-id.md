@@ -4,7 +4,7 @@
 **Update LLM Config**
 **Operation ID:** `put--config-llms-{id}`
 
-Update existing LLM configuration by ID. If input ModelName, ApiEndpoint, AuthHeader, Type, Enabled not null, update in database. Return the updated LLM configuration. If the provided ID does not exist, it returns an error.
+Update existing LLM configuration by ID. If input ModelName, Upstreams, Types, Enabled are not null, update in database. Types is an array of type flags (1, 2, 4, 8, 16). Return the updated LLM configuration. If the provided ID does not exist, it returns an error.
 
 ## Parameters
 

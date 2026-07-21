@@ -19,6 +19,12 @@ Upload object to storage gateway. If presigned URL parameters are present, the r
 
 **Content Types:** `multipart/form-data`
 
+**Schema** (inline):
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `file` | string (binary) | Yes | File to upload |
+
 ## Responses
 
 | Status | Description |

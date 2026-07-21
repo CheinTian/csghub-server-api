@@ -24,4 +24,5 @@ are present. |
 | `tools` | openai.ChatCompletionToolUnionParam[] | No | A list of tools the model may call. You can provide either
 [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
 or [function tools](https://platform.openai.com/docs/guides/function-calling). |
+| `top_p` | number | No |  |
 

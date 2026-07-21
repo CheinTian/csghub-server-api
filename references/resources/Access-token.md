@@ -8,6 +8,7 @@
 | POST | `/token/{app}/{token_name}` | Create access token for an special application | [View](../operations/post-token-app-token-name.md) |
 | DELETE | `/token/{app}/{token_name}` | Delete access token of a app | [View](../operations/delete-token-app-token-name.md) |
 | GET | `/token/{token_value}` | Get token and owner's detail by the token value | [View](../operations/get-token-token-value.md) |
+| GET | `/token/{token_value}/quotas` | Get all quotas for an API key | [View](../operations/get-token-token-value-quotas.md) |
 | GET | `/user/{username}/tokens` | Get all access tokens for a user | [View](../operations/get-user-username-tokens.md) |
 | POST | `/user/{username}/tokens` | [Deprecated: use POST:/token/{app}/{username} instead] | [View](../operations/post-user-username-tokens.md) |
 | GET | `/user/{username}/tokens/first` | Get or create first available access token for a user | [View](../operations/get-user-username-tokens-first.md) |

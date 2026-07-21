@@ -4,7 +4,7 @@
 **Create LLM Config**
 **Operation ID:** `post--config-llms`
 
-Create LLM Config according to "model_name", "api_endpoint", "auth_header", "type", "enabled"
+Create LLM Config according to "model_name", "upstreams", "types", "enabled". Types is an array of type flags (1, 2, 4, 8, 16) that are combined into an internal bitmask.
 
 ## Request Body
 

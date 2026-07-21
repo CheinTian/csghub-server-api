@@ -6,10 +6,12 @@
 |--------|------|---------|----------|
 | GET | `/admin/repos` | Get repo paths with search query | [View](../operations/get-admin-repos.md) |
 | POST | `/admin/{repo_type}/{namespace}/{name}/change_path` | Change the namespace of a repository | [View](../operations/post-admin-repo-type-namespace-name-change-path.md) |
+| POST | `/admin/{repo_type}/{namespace}/{name}/industry_tags/scan` | Trigger repository industry tag scan | [View](../operations/post-admin-repo-type-namespace-name-industry-tags-scan.md) |
 | GET | `/models/runtime_framework` | List repo runtime framework | [View](../operations/get-models-runtime-framework.md) |
 | GET | `/models/{namespace}/{name}/finetune/{id}/logs/{instance}` | get finetune instance logs | [View](../operations/get-models-namespace-name-finetune-id-logs-instance.md) |
 | POST | `/repos/batch_migrate_to_xnet` | Batch migrate all repos to Xnet | [View](../operations/post-repos-batch-migrate-to-xnet.md) |
 | POST | `/repos/create` | Create a new repository, compatible with hf api | [View](../operations/post-repos-create.md) |
+| POST | `/repos/extra` | Batch get extra information for multiple repositories | [View](../operations/post-repos-extra.md) |
 | GET | `/repos/migration_stats` | Get xnet migration statistics | [View](../operations/get-repos-migration-stats.md) |
 | POST | `/repos/stop_all_migrate_to_xnet` | Stop all repo migrations to Xnet | [View](../operations/post-repos-stop-all-migrate-to-xnet.md) |
 | POST | `/validate-yaml` | Validate yaml, compatible with hf api | [View](../operations/post-validate-yaml.md) |

@@ -15,6 +15,7 @@
 | `current_user` | query | string | Yes | current_user |
 | `per` | query | integer | No | per |
 | `page` | query | integer | No | per page |
+| `instance_name` | query | string | Yes | instance name |
 
 ## Responses
 

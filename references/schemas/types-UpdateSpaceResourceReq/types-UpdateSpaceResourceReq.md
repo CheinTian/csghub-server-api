@@ -8,4 +8,5 @@
 |-------|------|----------|-------------|
 | `name` | string | No |  |
 | `resources` | string | No |  |
+| `scenarios` | string[] | No |  |
 

@@ -17,6 +17,7 @@
 | `namespace_id` | integer | No |  |
 | `org_type` | string | No |  |
 | `path` | string | No | unique name of the organization |
+| `role` | string | No |  |
 | `updated_at` | string | No |  |
 | `user` | [database.User](database-User.md) | No |  |
 | `user_id` | integer | No |  |

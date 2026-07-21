@@ -22,6 +22,10 @@ tag names in array
 
 **Content Types:** `application/json`
 
+**Schema** (inline):
+
+Array
+
 ## Responses
 
 | Status | Description |

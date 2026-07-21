@@ -65,3 +65,7 @@
 | GET | `/agent/templates/{id}/instances` | List agent instances by template ID | [View](../operations/get-agent-templates-id-instances.md) |
 | POST | `/agent/user-preferences` | Set a preference for an entity (e.g., pin) | [View](../operations/post-agent-user-preferences.md) |
 | DELETE | `/agent/user-preferences` | Remove a preference for an entity (e.g., unpin) | [View](../operations/delete-agent-user-preferences.md) |
+| GET | `/internal/agent/templates` | List internal agent templates | [View](../operations/get-internal-agent-templates.md) |
+| POST | `/internal/agent/templates` | Create a new internal agent template | [View](../operations/post-internal-agent-templates.md) |
+| PUT | `/internal/agent/templates/{id}` | Update an internal agent template | [View](../operations/put-internal-agent-templates-id.md) |
+| DELETE | `/internal/agent/templates/{id}` | Delete an internal agent template | [View](../operations/delete-internal-agent-templates-id.md) |

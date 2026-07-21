@@ -12,6 +12,7 @@
 | `namespace` | [types.Namespace](types-Namespace.md) | No |  |
 | `org_type` | string | No |  |
 | `path` | string | No | unique name of the organization |
+| `role` | string | No |  |
 | `user_id` | integer | No |  |
 | `uuid` | string | No |  |
 | `verified` | boolean | No |  |

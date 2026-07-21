@@ -11,9 +11,13 @@
 - `invalid_memory_size`
 - `invalid_xpu_num`
 - `invalid_xpu_memory_size`
+- `invalid_xpu_memory_loss`
 - `insufficient_cpu`
 - `insufficient_memory`
 - `insufficient_xpu`
 - `insufficient_vxpu`
 - `enable_vxpu`
 - `disable_vxpu`
+- `disable_scheduling`
+- `node_offline`
+- `price_undefined`

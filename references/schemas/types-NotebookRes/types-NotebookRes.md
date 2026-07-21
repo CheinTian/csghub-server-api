@@ -16,6 +16,7 @@
 | `max_replica` | integer | No |  |
 | `min_replica` | integer | No |  |
 | `order_detail_id` | integer | No |  |
+| `owner_namespace` | string | No |  |
 | `pay_mode` | [types.PayMode](types-PayMode.md) | No |  |
 | `provider` | string | No |  |
 | `resource_id` | string | No |  |
@@ -26,4 +27,5 @@
 | `status` | string | No |  |
 | `svc_name` | string | No |  |
 | `updated_at` | string | No |  |
+| `user_uuid` | string | No |  |
 

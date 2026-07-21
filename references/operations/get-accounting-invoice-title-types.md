@@ -14,6 +14,10 @@ Get all available invoice title types
 | 400 | Bad request format |
 | 500 | Server error |
 
+**Success Response Schema** (inline):
+
+Array
+
 ## Security
 
 - **ApiKey**

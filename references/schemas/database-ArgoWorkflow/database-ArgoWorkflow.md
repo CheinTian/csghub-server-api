@@ -8,7 +8,9 @@
 |-------|------|----------|-------------|
 | `cluster_id` | string | No |  |
 | `cluster_node` | string | No |  |
+| `dag_tasks` | string | No |  |
 | `datasets` | string[] | No |  |
+| `deleted_at` | string | No |  |
 | `download_url` | string | No |  |
 | `end_time` | string | No |  |
 | `failures_url` | string | No |  |
@@ -24,6 +26,7 @@
 | `result_url` | string | No |  |
 | `start_time` | string | No |  |
 | `status` | [v1alpha1.WorkflowPhase](v1alpha1-WorkflowPhase.md) | No |  |
+| `status_update_at` | string | No |  |
 | `submit_time` | string | No |  |
 | `task_desc` | string | No |  |
 | `task_id` | string | No | generated task id |

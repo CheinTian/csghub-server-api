@@ -12,6 +12,7 @@
 | `deploy_type` | integer | No |  |
 | `end_time` | string | No |  |
 | `id` | integer | No |  |
+| `order_count` | integer | No |  |
 | `order_detail_id` | integer | No |  |
 | `order_id` | string | No |  |
 | `pay_mode` | string | No |  |

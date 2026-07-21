@@ -6,6 +6,7 @@
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
+| `arch_allowed` | boolean | No |  |
 | `base_model` | string | No |  |
 | `can_manage` | boolean | No |  |
 | `can_write` | boolean | No |  |

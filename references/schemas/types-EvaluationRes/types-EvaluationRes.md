@@ -21,6 +21,7 @@
 | `start_time` | string | No |  |
 | `status` | string | No |  |
 | `submit_time` | string | No |  |
+| `summary` | [types.ClawEvalSummary](types-ClawEvalSummary.md) | No |  |
 | `task_desc` | string | No |  |
 | `task_id` | string | No |  |
 | `task_name` | string | No |  |

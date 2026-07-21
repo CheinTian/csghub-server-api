@@ -36,6 +36,7 @@
 | `order_detail_id` | integer | No |  |
 | `owner_namespace` | string | No |  |
 | `pay_mode` | [types.PayMode](types-PayMode.md) | No |  |
+| `pd` | [types.PDConfig](types-PDConfig.md) | No |  |
 | `private` | boolean | No |  |
 | `provider` | string | No |  |
 | `proxy_endpoint` | string | No |  |

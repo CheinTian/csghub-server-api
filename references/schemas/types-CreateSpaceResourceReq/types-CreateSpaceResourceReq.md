@@ -9,4 +9,5 @@
 | `cluster_id` | string | Yes |  |
 | `name` | string | Yes |  |
 | `resources` | string | Yes |  |
+| `scenarios` | string[] | No |  |
 

@@ -17,5 +17,6 @@
 | `path` | string | No |  |
 | `pinned_at` | string | No | when pinned (optional in API) |
 | `public` | boolean | No | set after scan |
+| `repository` | [types.Repository](types-Repository.md) | No |  |
 | `updated_at` | string | No |  |
 

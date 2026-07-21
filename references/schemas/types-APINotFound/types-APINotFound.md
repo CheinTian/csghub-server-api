@@ -1,0 +1,4 @@
+# types.APINotFound
+
+**Type:** object
+

@@ -6,6 +6,7 @@
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
+| `auto_detected` | boolean | No |  |
 | `enabled` | boolean | No |  |
 | `id` | integer | No |  |
 | `name` | string | No |  |

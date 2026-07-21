@@ -22,6 +22,7 @@ SendPublicSMSCodeRequest
 |--------|-------------|
 | 200 | OK |
 | 400 | Bad request |
+| 429 | Too many requests |
 | 500 | Internal server error |
 
 ## Security

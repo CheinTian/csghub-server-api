@@ -8,7 +8,7 @@
 
 | Name | In | Type | Required | Description |
 |------|------|------|----------|-------------|
-| `id` | path | string | Yes | finetune job id |
+| `id` | path | string | Yes | finetune job id or task id |
 | `since` | query | string | No | since time. Optional values: 10mins, 30mins, 1hour, 6hours, 1day, 2days, 1week |
 
 ## Responses

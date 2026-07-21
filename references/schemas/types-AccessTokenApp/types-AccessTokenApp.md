@@ -8,3 +8,4 @@
 - `git`
 - `mirror`
 - `starship`
+- `aigateway`

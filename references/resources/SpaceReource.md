@@ -4,7 +4,9 @@
 
 | Method | Path | Summary | Details |
 |--------|------|---------|----------|
+| GET | `/admin/space_resources` | List all space resources for admin | [View](../operations/get-admin-space-resources.md) |
 | GET | `/space_resources` | Get space resources | [View](../operations/get-space-resources.md) |
 | POST | `/space_resources` | Create space resource | [View](../operations/post-space-resources.md) |
+| GET | `/space_resources/scenarios` | List all deploy/workflow scenarios | [View](../operations/get-space-resources-scenarios.md) |
 | PUT | `/space_resources/{id}` | Update a exist space resource | [View](../operations/put-space-resources-id.md) |
 | DELETE | `/space_resources/{id}` | Delete a exist space resource | [View](../operations/delete-space-resources-id.md) |

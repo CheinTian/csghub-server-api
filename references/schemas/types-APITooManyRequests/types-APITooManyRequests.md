@@ -1,0 +1,4 @@
+# types.APITooManyRequests
+
+**Type:** object
+

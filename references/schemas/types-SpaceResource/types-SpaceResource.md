@@ -16,8 +16,10 @@
 | `order_detail_id` | integer | No |  |
 | `pay_mode` | [types.PayMode](types-PayMode.md) | No |  |
 | `price` | number | No |  |
+| `price_undefined` | boolean | No |  |
 | `price_unit` | integer | No |  |
 | `price_unit_type` | string | No |  |
 | `resources` | string | No |  |
-| `type` | [types.ResourceType](types-ResourceType.md) | No |  |
+| `scenarios` | string[] | No |  |
+| `type` | [opencsg_com_csghub-server_common_types.ResourceType](opencsg-com-csghub-server-common-types-ResourceType.md) | No |  |
 

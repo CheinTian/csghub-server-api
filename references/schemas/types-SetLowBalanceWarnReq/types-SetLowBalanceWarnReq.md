@@ -6,6 +6,6 @@
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
-| `low_balance_warn` | number | No |  |
+| `low_balance_warn` | number | Yes |  |
 | `user_uuid` | string | No |  |
 

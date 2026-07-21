@@ -27,6 +27,8 @@ get visiable models for current user
 | `page` | query | integer | No | per page |
 | `model_tree` | query | string | No | example: base_model:finetune:1 |
 | `list_serverless` | query | boolean | No | list serverless |
+| `model_params_min` | query | number | No | minimum model parameters in billions |
+| `model_params_max` | query | number | No | maximum model parameters in billions |
 
 ## Responses
 

@@ -6,12 +6,13 @@
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
-| `api_endpoint` | string | Yes |  |
-| `auth_header` | string | No |  |
 | `enabled` | boolean | No |  |
 | `metadata` | object | No | tasks stored as: {"tasks": ["text-generation", "text-to-image"]} |
 | `model_name` | string | Yes |  |
-| `official_name` | string | No |  |
-| `provider` | string | Yes |  |
-| `type` | integer | Yes | 1: optimization, 2: comparison, 4: summary readme, 8: mcp scan, 16: for aigateway call external llm |
+| `model_size_b` | number | No |  |
+| `need_sensitive_check` | boolean | No |  |
+| `repo_id` | integer | No |  |
+| `routing_policy` | [types.RoutingPolicy](types-RoutingPolicy.md) | No |  |
+| `types` | integer[] | Yes | individual type flags, combined into a bitmask on create |
+| `upstreams` | types.UpstreamConfig[] | No |  |
 

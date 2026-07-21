@@ -14,3 +14,8 @@
 | GET | `/config/prompt_prefixes/{id}` | Get detail of prompt config by id | [View](../operations/get-config-prompt-prefixes-id.md) |
 | PUT | `/config/prompt_prefixes/{id}` | Update Prompt Config | [View](../operations/put-config-prompt-prefixes-id.md) |
 | DELETE | `/config/prompt_prefixes/{id}` | Delete Prompt Config | [View](../operations/delete-config-prompt-prefixes-id.md) |
+| POST | `/config/upstreams` | Create Upstream | [View](../operations/post-config-upstreams.md) |
+| PUT | `/config/upstreams/{id}` | Update Upstream | [View](../operations/put-config-upstreams-id.md) |
+| DELETE | `/config/upstreams/{id}` | Delete Upstream | [View](../operations/delete-config-upstreams-id.md) |
+| POST | `/config/upstreams/{id}/test` | Test Upstream Connection | [View](../operations/post-config-upstreams-id-test.md) |
+| GET | `/external_llms` | List External LLMs | [View](../operations/get-external-llms.md) |

@@ -10,6 +10,7 @@
 |------|------|------|----------|-------------|
 | `sku_type` | query | enum: 1, 2 | Yes | sku_type |
 | `sku_kind` | query | string | Yes | sku_kind |
+| `sku_status` | query | enum: 1, 9 | No | sku_status |
 | `resource_id` | query | string | Yes | resource_id |
 | `current_user` | query | string | Yes | current_user |
 | `per` | query | integer | No | per |

@@ -19,6 +19,10 @@ get visiable datasets for current user
 | `sort` | query | string | No | sort by |
 | `source` | query | enum: opencsg, huggingface, local | No | source |
 | `xnet_migration_status` | query | enum: pending, running, completed... | No | filter by xnet migration status |
+| `dataset_type` | query | enum: commercial, normal | No | filter by dataset type |
+| `user_purchased` | query | boolean | No | filter by user purchased |
+| `repo_size_min` | query | integer | No | minimum repository size in bytes |
+| `repo_size_max` | query | integer | No | maximum repository size in bytes |
 | `per` | query | integer | No | per |
 | `page` | query | integer | No | per page |
 

@@ -4,6 +4,12 @@
 **Get cluster list**
 **Operation ID:** `get--cluster`
 
+## Parameters
+
+| Name | In | Type | Required | Description |
+|------|------|------|----------|-------------|
+| `scope` | query | enum: all | No | Scope of cluster |
+
 ## Responses
 
 | Status | Description |
