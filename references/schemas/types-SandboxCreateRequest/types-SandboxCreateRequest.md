@@ -11,6 +11,7 @@
 | `min_cpu` | string | No |  |
 | `min_memory` | string | No |  |
 | `port` | integer | No |  |
+| `readiness_probe` | [types.SandboxReadinessProbe](types-SandboxReadinessProbe.md) | No |  |
 | `resource_id` | integer | No |  |
 | `sandbox_name` | string | Yes |  |
 | `timeout` | integer | No |  |

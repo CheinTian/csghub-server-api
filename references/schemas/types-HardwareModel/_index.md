@@ -1,7 +1,7 @@
-# types.MirrorSource Schemas
+# types.HardwareModel Schemas
 
 1 schemas in this group.
 
 | Schema | Type | Description |
 |--------|------|-------------|
-| [types.MirrorSource](types-MirrorSource.md) | object |  |
+| [types.HardwareModel](types-HardwareModel.md) | enum |  |

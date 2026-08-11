@@ -16,8 +16,9 @@
 
 | Status | Description |
 |--------|-------------|
-| 200 | OK |
+| 202 | Accepted |
 | 400 | Bad request |
+| 403 | Forbidden |
 | 500 | Internal server error |
 
 ## Security

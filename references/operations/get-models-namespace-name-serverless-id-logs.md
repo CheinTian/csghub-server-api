@@ -1,8 +1,8 @@
-# GET /models/{namespace}/{name}/serverless/{id}/logs/{instance}
+# GET /models/{namespace}/{name}/serverless/{id}/logs
 
 **Resource:** [Model](../resources/Model.md)
-**get serverless logs**
-**Operation ID:** `get--models-{namespace}-{name}-serverless-{id}-logs-{instance}`
+**get serverless stream logs**
+**Operation ID:** `get--models-{namespace}-{name}-serverless-{id}-logs`
 
 ## Parameters
 
@@ -12,8 +12,8 @@
 | `namespace` | path | string | Yes | namespace |
 | `name` | path | string | Yes | name |
 | `id` | path | string | Yes | id |
-| `instance` | path | string | Yes | instance |
 | `current_user` | query | string | Yes | current_user |
+| `limit` | query | integer | No | max number of log lines to return |
 | `since` | query | string | No | since time. Optional values: 10mins, 30mins, 1hour, 6hours, 1day, 2days, 1week |
 
 ## Responses

@@ -20,6 +20,7 @@ body
 |--------|-------------|
 | 200 | OK |
 | 400 | Bad request |
+| 409 | Source namespace already has a mapping |
 | 500 | Internal server error |
 
 ## Security

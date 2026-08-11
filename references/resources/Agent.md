@@ -28,6 +28,7 @@
 | PUT | `/agent/instances/{id}/sessions/{session_uuid}/histories/{msg_uuid}/feedback` | Update the feedback of a session history message | [View](../operations/put-agent-instances-id-sessions-session-uuid-histories-msg-uuid-feedback.md) |
 | PUT | `/agent/instances/{id}/sessions/{session_uuid}/histories/{msg_uuid}/rewrite` | Rewrite an output message | [View](../operations/put-agent-instances-id-sessions-session-uuid-histories-msg-uuid-rewrite.md) |
 | POST | `/agent/instances/{id}/sessions/{session_uuid}/share` | Share a session | [View](../operations/post-agent-instances-id-sessions-session-uuid-share.md) |
+| POST | `/agent/instances/{id}/share` | Share a public agent instance | [View](../operations/post-agent-instances-id-share.md) |
 | GET | `/agent/instances/{instance_id}/schedulers` | List agent schedulers for an instance | [View](../operations/get-agent-instances-instance-id-schedulers.md) |
 | POST | `/agent/instances/{instance_id}/schedulers` | Create agent scheduler | [View](../operations/post-agent-instances-instance-id-schedulers.md) |
 | GET | `/agent/instances/{instance_id}/schedulers/{scheduler_id}` | Get agent scheduler by ID | [View](../operations/get-agent-instances-instance-id-schedulers-scheduler-id.md) |
@@ -53,11 +54,12 @@
 | DELETE | `/agent/mcp-servers/{id}` | Delete an agent MCP server or config | [View](../operations/delete-agent-mcp-servers-id.md) |
 | GET | `/agent/prompts` | List agent prompts | [View](../operations/get-agent-prompts.md) |
 | POST | `/agent/prompts/optimize` | Optimize agent prompt | [View](../operations/post-agent-prompts-optimize.md) |
+| GET | `/agent/shared/instance` | Get shared agent instance | [View](../operations/get-agent-shared-instance.md) |
 | GET | `/agent/shared/session` | Get shared session by share uuid | [View](../operations/get-agent-shared-session.md) |
 | GET | `/agent/skills` | List agent skills (platform + user-created) | [View](../operations/get-agent-skills.md) |
 | GET | `/agent/tasks` | List agent tasks | [View](../operations/get-agent-tasks.md) |
 | GET | `/agent/tasks/{id}` | Get agent task detail | [View](../operations/get-agent-tasks-id.md) |
-| GET | `/agent/templates` | List agent templates for the current user | [View](../operations/get-agent-templates.md) |
+| GET | `/agent/templates` | List public agent templates | [View](../operations/get-agent-templates.md) |
 | POST | `/agent/templates` | Create a new agent template | [View](../operations/post-agent-templates.md) |
 | GET | `/agent/templates/{id}` | Get an agent template by ID | [View](../operations/get-agent-templates-id.md) |
 | PUT | `/agent/templates/{id}` | Update an existing agent template | [View](../operations/put-agent-templates-id.md) |

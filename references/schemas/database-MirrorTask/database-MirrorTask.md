@@ -12,6 +12,7 @@
 | `error_message` | string | No |  |
 | `finishedAt` | string | No |  |
 | `id` | integer | No |  |
+| `is_urgent` | boolean | No | IsUrgent reports whether this task was submitted through the urgent queues. |
 | `lfs_job_id` | integer | No | LFSJobID stores the River job ID for the Git LFS sync phase. |
 | `mirror` | [database.Mirror](database-Mirror.md) | No |  |
 | `mirror_id` | integer | No |  |

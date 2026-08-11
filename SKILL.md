@@ -18,8 +18,8 @@ This API documentation is split into multiple files for on-demand loading.
 ```
 references/
 ├── resources/      # 60 resource index files
-├── operations/     # 640 operation detail files
-└── schemas/        # 599 schema groups, 603 schema files
+├── operations/     # 653 operation detail files
+└── schemas/        # 619 schema groups, 623 schema files
 ```
 
 **Navigation flow:**
@@ -46,15 +46,15 @@ Supported methods: **ApiKey**. See `references/authentication.md` for details.
 
 ## Resources
 
-- **Agent** → `references/resources/Agent.md` (65 ops)
-- **Accounting** → `references/resources/Accounting.md` (51 ops)
-- **Repository** → `references/resources/Repository.md` (51 ops)
+- **Agent** → `references/resources/Agent.md` (67 ops)
+- **Repository** → `references/resources/Repository.md` (53 ops)
+- **Accounting** → `references/resources/Accounting.md` (52 ops)
 - **User** → `references/resources/User.md` (48 ops)
-- **Model** → `references/resources/Model.md` (41 ops)
+- **Model** → `references/resources/Model.md` (43 ops)
 - **Prompt** → `references/resources/Prompt.md` (26 ops)
-- **Organization** → `references/resources/Organization.md` (19 ops)
+- **AIGateway** → `references/resources/AIGateway.md` (22 ops)
+- **Organization** → `references/resources/Organization.md` (20 ops)
 - **Cluster** → `references/resources/Cluster.md` (18 ops)
-- **AIGateway** → `references/resources/AIGateway.md` (18 ops)
 - **Mirror** → `references/resources/Mirror.md` (17 ops)
 - **Accounting-Invoices** → `references/resources/Accounting-Invoices.md` (15 ops)
 - **Dataset** → `references/resources/Dataset.md` (15 ops)
@@ -66,12 +66,12 @@ Supported methods: **ApiKey**. See `references/authentication.md` for details.
 - **ClawHub** → `references/resources/ClawHub.md` (9 ops)
 - **Discussion** → `references/resources/Discussion.md` (9 ops)
 - **Notebook** → `references/resources/Notebook.md` (9 ops)
+- **Skill** → `references/resources/Skill.md` (9 ops)
 - **Tag** → `references/resources/Tag.md` (9 ops)
 - **Access token** → `references/resources/Access-token.md` (9 ops)
 - **Code** → `references/resources/Code.md` (8 ops)
 - **Collection** → `references/resources/Collection.md` (8 ops)
 - **License** → `references/resources/License.md` (8 ops)
-- **Skill** → `references/resources/Skill.md` (8 ops)
 - **MCP** → `references/resources/MCP.md` (7 ops)
 - **MCP Servers** → `references/resources/MCP-Servers.md` (6 ops)
 - **SpaceReource** → `references/resources/SpaceReource.md` (6 ops)

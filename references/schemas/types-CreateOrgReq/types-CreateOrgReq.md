@@ -12,5 +12,6 @@
 | `name` | string | No | Org unique identifier |
 | `nickname` | string | No | Display name |
 | `org_type` | string | No |  |
+| `tag_ids` | integer[] | No |  |
 | `verified` | boolean | No |  |
 

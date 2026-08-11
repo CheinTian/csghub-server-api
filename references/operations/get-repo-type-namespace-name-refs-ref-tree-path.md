@@ -21,7 +21,9 @@
 | Status | Description |
 |--------|-------------|
 | 200 | OK |
+| 202 | Repository synchronization is in progress; data may be omitted when remote file metadata is unavailable |
 | 400 | Bad request |
+| 409 | Repository synchronization failed (MIRROR-ERR-2) or was canceled (MIRROR-ERR-4) |
 | 500 | Internal server error |
 
 ## Security

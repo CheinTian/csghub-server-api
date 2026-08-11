@@ -1,10 +1,11 @@
 # GET /v1/videos/{video_id}/content
 
 **Resource:** [AIGateway](../resources/AIGateway.md)
-**Download generated video content**
+**Download generated video content (deprecated)**
 **Operation ID:** `get--v1-videos-{video_id}-content`
+⚠️ **Deprecated**
 
-Streams generated video bytes for an OpenAI-compatible video generation by gateway video ID.
+Deprecated: use GET /v1/video/generations/{video_id}/content instead.
 
 ## Parameters
 

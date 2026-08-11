@@ -21,5 +21,6 @@
 | GET | `/organization/{namespace}/run/{repo_type}` | Get organization run deploys (e.g. inference) | [View](../operations/get-organization-namespace-run-repo-type.md) |
 | GET | `/organization/{namespace}/skills` | Get organization skills | [View](../operations/get-organization-namespace-skills.md) |
 | GET | `/organization/{namespace}/spaces` | Get organization Spaces | [View](../operations/get-organization-namespace-spaces.md) |
-| GET | `/organizations` | Get organizations | [View](../operations/get-organizations.md) |
+| GET | `/organizations` | Get all organizations | [View](../operations/get-organizations.md) |
 | POST | `/organizations` | Create a new organization | [View](../operations/post-organizations.md) |
+| GET | `/user/{username}/organizations` | Get organizations the user belongs to | [View](../operations/get-user-username-organizations.md) |

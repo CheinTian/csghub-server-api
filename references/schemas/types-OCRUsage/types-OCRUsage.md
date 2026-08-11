@@ -1,4 +1,4 @@
-# types.MirrorSource
+# types.OCRUsage
 
 **Type:** object
 
@@ -6,5 +6,6 @@
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
-| `source_name` | string | No |  |
+| `images` | integer | No |  |
+| `pages` | integer | No |  |
 

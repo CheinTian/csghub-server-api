@@ -10,6 +10,8 @@
 |------|------|------|----------|-------------|
 | `per` | query | integer | No | per |
 | `page` | query | integer | No | page |
+| `search` | query | string | No | search |
+| `status` | query | enum: all, waiting, running | No | status |
 
 ## Responses
 

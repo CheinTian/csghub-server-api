@@ -12,12 +12,21 @@
 | `namespace` | path | string | Yes | repo owner name |
 | `name` | path | string | Yes | repo name |
 
+## Request Body
+
+scheduling options
+
+**Content Types:** `application/json`
+
+**Schema:** [types.SyncMirrorParams](../schemas/types-SyncMirrorParams/types-SyncMirrorParams.md)
+
 ## Responses
 
 | Status | Description |
 |--------|-------------|
 | 200 | OK |
 | 400 | Bad request |
+| 403 | Forbidden |
 | 500 | Internal server error |
 
 **Success Response Schema:**

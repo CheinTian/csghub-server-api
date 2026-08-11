@@ -15,6 +15,7 @@
 | `id` | integer | No |  |
 | `is_pinned` | boolean | No | Whether the instance is pinned by the user |
 | `is_running` | boolean | No | Whether the instance is running |
+| `is_shared` | boolean | No | Whether the instance has been shared via agent_shares |
 | `metadata` | object | No | Instance metadata |
 | `name` | string | No | Instance name |
 | `public` | boolean | No | Whether the instance is public |

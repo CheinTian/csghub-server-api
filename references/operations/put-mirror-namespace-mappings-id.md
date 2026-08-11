@@ -26,6 +26,7 @@ body
 |--------|-------------|
 | 200 | OK |
 | 400 | Bad request |
+| 404 | Source namespace mapping not found |
 | 500 | Internal server error |
 
 ## Security

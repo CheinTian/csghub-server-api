@@ -9,6 +9,7 @@
 | `available_status_list` | types.ResourceAvailableStatus[] | No |  |
 | `cluster_id` | string | No |  |
 | `cluster_region` | string | No |  |
+| `hardware_model` | object | No | CPU, or XPU, VXPU, MIG |
 | `id` | integer | No |  |
 | `is_available` | boolean | No |  |
 | `is_reserved` | boolean | No |  |

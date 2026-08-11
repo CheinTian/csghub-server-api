@@ -10,5 +10,6 @@
 | GET | `/skills/{namespace}/{name}` | Get skill detail | [View](../operations/get-skills-namespace-name.md) |
 | PUT | `/skills/{namespace}/{name}` | Update a exists skill | [View](../operations/put-skills-namespace-name.md) |
 | DELETE | `/skills/{namespace}/{name}` | Delete a exists skill | [View](../operations/delete-skills-namespace-name.md) |
+| GET | `/skills/{namespace}/{name}/download_archive/refs/{ref}/` | Download skill repository as zip archive | [View](../operations/get-skills-namespace-name-download-archive-refs-ref.md) |
 | POST | `/skills/{namespace}/{name}/publish` | Publish a skill version | [View](../operations/post-skills-namespace-name-publish.md) |
 | GET | `/skills/{namespace}/{name}/relations` | Get skill related assets | [View](../operations/get-skills-namespace-name-relations.md) |

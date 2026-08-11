@@ -34,6 +34,7 @@
 | GET | `/accounting/recharge/{uuid}/status` | Fetch recharge order status by recharge id | [View](../operations/get-accounting-recharge-uuid-status.md) |
 | GET | `/accounting/recharges` | List recharges by user name, order no, status, payment type and time range | [View](../operations/get-accounting-recharges.md) |
 | GET | `/accounting/statements` | List statements by user name, instance name, scene and time range | [View](../operations/get-accounting-statements.md) |
+| GET | `/accounting/statements/export` | Export all statements as CSV (streaming) | [View](../operations/get-accounting-statements-export.md) |
 | GET | `/accounting/stripe/pay/cancel` | Mark stripe pay session as cancel | [View](../operations/get-accounting-stripe-pay-cancel.md) |
 | GET | `/accounting/stripe/pay/sessions` | List pay sessions by user uuid and start time and end time | [View](../operations/get-accounting-stripe-pay-sessions.md) |
 | GET | `/accounting/stripe/pay/sessions/{id}` | Get a stripe pay session | [View](../operations/get-accounting-stripe-pay-sessions-id.md) |

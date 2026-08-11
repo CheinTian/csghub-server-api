@@ -1,7 +1,7 @@
-# types.Mirror Schemas
+# types.OCRPage Schemas
 
 1 schemas in this group.
 
 | Schema | Type | Description |
 |--------|------|-------------|
-| [types.Mirror](types-Mirror.md) | object |  |
+| [types.OCRPage](types-OCRPage.md) | object |  |

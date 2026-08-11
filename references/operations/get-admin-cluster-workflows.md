@@ -17,6 +17,8 @@ Query cluster workflows with filters
 | `search` | query | string | No | search keyword |
 | `per` | query | integer | No | per page |
 | `page` | query | integer | No | page |
+| `start_time` | query | string | No | start time (e.g., 2024-01-01 or 2024-01-01 00:00:00) |
+| `end_time` | query | string | No | end time (e.g., 2024-01-31 or 2024-01-31 23:59:59) |
 
 ## Responses
 

@@ -21,3 +21,4 @@
 - `disable_scheduling`
 - `node_offline`
 - `price_undefined`
+- `wrong_mem_resource`

@@ -34,6 +34,7 @@
 | GET | `/{repo_type}/{namespace}/{name}/mirror/progress` | Get Mirror sync progress | [View](../operations/get-repo-type-namespace-name-mirror-progress.md) |
 | POST | `/{repo_type}/{namespace}/{name}/mirror/sync` | Triggers the mirror synchronization | [View](../operations/post-repo-type-namespace-name-mirror-sync.md) |
 | POST | `/{repo_type}/{namespace}/{name}/mirror_from_saas` | Mirror repo from OpenCSG Saas(only on-premises) | [View](../operations/post-repo-type-namespace-name-mirror-from-saas.md) |
+| GET | `/{repo_type}/{namespace}/{name}/mirror_from_saas/status` | Get the current OpenCSG SaaS mirror synchronization status | [View](../operations/get-repo-type-namespace-name-mirror-from-saas-status.md) |
 | POST | `/{repo_type}/{namespace}/{name}/preupload/{revision}` | Get upload mode for files | [View](../operations/post-repo-type-namespace-name-preupload-revision.md) |
 | GET | `/{repo_type}/{namespace}/{name}/raw/{file_path}` | Get the last commit of repository | [View](../operations/get-repo-type-namespace-name-raw-file-path.md) |
 | PUT | `/{repo_type}/{namespace}/{name}/raw/{file_path}` | Update existing file in repository | [View](../operations/put-repo-type-namespace-name-raw-file-path.md) |
@@ -54,4 +55,5 @@
 | POST | `/{repo_type}/{namespace}/{name}/stop_migrate_to_xnet` | Stop single repo migration to Xnet | [View](../operations/post-repo-type-namespace-name-stop-migrate-to-xnet.md) |
 | GET | `/{repo_type}/{namespace}/{name}/tags` | Get the tags of repository | [View](../operations/get-repo-type-namespace-name-tags.md) |
 | POST | `/{repo_type}/{namespace}/{name}/tags/{category}` | update the tags of a certain category | [View](../operations/post-repo-type-namespace-name-tags-category.md) |
+| POST | `/{repo_type}/{namespace}/{name}/transfer` | Transfer repository ownership to another namespace | [View](../operations/post-repo-type-namespace-name-transfer.md) |
 | GET | `/{repo_type}/{namespace}/{name}/tree` | Get repository file tree | [View](../operations/get-repo-type-namespace-name-tree.md) |

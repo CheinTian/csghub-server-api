@@ -18,7 +18,11 @@
 | GET | `/v1/mcp/resources` | List recommanded mcp servers | [View](../operations/get-v1-mcp-resources.md) |
 | GET | `/v1/models` | List available models | [View](../operations/get-v1-models.md) |
 | GET | `/v1/models/{model}` | Get model details | [View](../operations/get-v1-models-model.md) |
+| POST | `/v1/ocr` | Extract text from an image with OCR | [View](../operations/post-v1-ocr.md) |
 | POST | `/v1/responses` | Create a model response | [View](../operations/post-v1-responses.md) |
-| POST | `/v1/videos` | Create a video generation | [View](../operations/post-v1-videos.md) |
-| GET | `/v1/videos/{video_id}` | Get a video generation | [View](../operations/get-v1-videos-video-id.md) |
-| GET | `/v1/videos/{video_id}/content` | Download generated video content | [View](../operations/get-v1-videos-video-id-content.md) |
+| POST | `/v1/video/generations` | Create a video generation | [View](../operations/post-v1-video-generations.md) |
+| GET | `/v1/video/generations/{video_id}` | Get a video generation | [View](../operations/get-v1-video-generations-video-id.md) |
+| GET | `/v1/video/generations/{video_id}/content` | Download generated video content | [View](../operations/get-v1-video-generations-video-id-content.md) |
+| POST | `/v1/videos` | Create a video generation (deprecated) | [View](../operations/post-v1-videos.md) |
+| GET | `/v1/videos/{video_id}` | Get a video generation (deprecated) | [View](../operations/get-v1-videos-video-id.md) |
+| GET | `/v1/videos/{video_id}/content` | Download generated video content (deprecated) | [View](../operations/get-v1-videos-video-id-content.md) |

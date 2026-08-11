@@ -9,6 +9,7 @@
 | `built_in` | boolean | No | true if platform skill (has agentichub-skills tag) |
 | `created_at` | string | No |  |
 | `description` | string | No |  |
+| `download_url` | string | No |  |
 | `id` | integer | No |  |
 | `is_pinned` | boolean | No | true if pinned by user |
 | `name` | string | No |  |
@@ -18,5 +19,6 @@
 | `pinned_at` | string | No | when pinned (optional in API) |
 | `public` | boolean | No | set after scan |
 | `repository` | [types.Repository](types-Repository.md) | No |  |
+| `repository_id` | integer | No |  |
 | `updated_at` | string | No |  |
 

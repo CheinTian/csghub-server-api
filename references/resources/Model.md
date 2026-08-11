@@ -6,6 +6,7 @@
 |--------|------|---------|----------|
 | GET | `/models` | Get Visiable models for current user | [View](../operations/get-models.md) |
 | POST | `/models` | Create a new model | [View](../operations/post-models.md) |
+| GET | `/models/v2` | Get visible models (V2 - basic data only, fast) | [View](../operations/get-models-v2.md) |
 | GET | `/models/{namespace}/{name}` | Get model detail | [View](../operations/get-models-namespace-name.md) |
 | PUT | `/models/{namespace}/{name}` | Update a exists model | [View](../operations/put-models-namespace-name.md) |
 | DELETE | `/models/{namespace}/{name}` | Delete a exists model | [View](../operations/delete-models-namespace-name.md) |
@@ -37,7 +38,8 @@
 | GET | `/models/{namespace}/{name}/serverless/{id}/benchmark/latest` | Get latest serverless benchmark result | [View](../operations/get-models-namespace-name-serverless-id-benchmark-latest.md) |
 | GET | `/models/{namespace}/{name}/serverless/{id}/benchmarks` | List serverless benchmark results | [View](../operations/get-models-namespace-name-serverless-id-benchmarks.md) |
 | GET | `/models/{namespace}/{name}/serverless/{id}/benchmarks/{benchmark_id}` | Get serverless benchmark detail | [View](../operations/get-models-namespace-name-serverless-id-benchmarks-benchmark-id.md) |
-| GET | `/models/{namespace}/{name}/serverless/{id}/logs/{instance}` | get serverless logs | [View](../operations/get-models-namespace-name-serverless-id-logs-instance.md) |
+| GET | `/models/{namespace}/{name}/serverless/{id}/logs` | get serverless stream logs | [View](../operations/get-models-namespace-name-serverless-id-logs.md) |
+| GET | `/models/{namespace}/{name}/serverless/{id}/logs/last` | get serverless last logs in number of lines | [View](../operations/get-models-namespace-name-serverless-id-logs-last.md) |
 | PUT | `/models/{namespace}/{name}/serverless/{id}/start` | Start a model serverless | [View](../operations/put-models-namespace-name-serverless-id-start.md) |
 | GET | `/models/{namespace}/{name}/serverless/{id}/status` | get serverless status | [View](../operations/get-models-namespace-name-serverless-id-status.md) |
 | PUT | `/models/{namespace}/{name}/serverless/{id}/stop` | Stop a model serverless | [View](../operations/put-models-namespace-name-serverless-id-stop.md) |

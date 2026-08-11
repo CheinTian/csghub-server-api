@@ -11,6 +11,7 @@
 | `namespace` | path | string | Yes | namespace |
 | `name` | path | string | Yes | name |
 | `id` | path | integer | Yes | id |
+| `force` | query | boolean | No | force stop when cluster is unavailable |
 | `current_user` | query | string | No | current user |
 
 ## Responses

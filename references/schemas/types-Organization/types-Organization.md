@@ -6,6 +6,7 @@
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
+| `description` | string | No |  |
 | `homepage` | string | No |  |
 | `logo` | string | No |  |
 | `name` | string | No |  |
@@ -13,6 +14,7 @@
 | `org_type` | string | No |  |
 | `path` | string | No | unique name of the organization |
 | `role` | string | No |  |
+| `tags` | types.RepoTag[] | No |  |
 | `user_id` | integer | No |  |
 | `uuid` | string | No |  |
 | `verified` | boolean | No |  |

@@ -6,6 +6,6 @@
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
-| `cursor` | string | No |  |
-| `files` | types.File[] | No |  |
+| `Cursor` | string | No |  |
+| `Files` | types.File[] | No | Files and Cursor retain capitalized JSON names for forward compatibility with existing API clients. |
 

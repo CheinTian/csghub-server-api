@@ -10,6 +10,7 @@
 | `quota` | string | No |  |
 | `resolution` | string | No |  |
 | `resource_id` | string | Yes |  |
+| `sku_cached_price` | integer | No |  |
 | `sku_desc` | string | Yes |  |
 | `sku_kind` | integer | Yes |  |
 | `sku_price` | integer | No |  |

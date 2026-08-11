@@ -28,6 +28,7 @@ body
 |--------|-------------|
 | 200 | OK |
 | 400 | Bad request |
+| 409 | Target repository already has a different mirror source (MIRROR-ERR-0) |
 | 500 | Internal server error |
 
 ## Security

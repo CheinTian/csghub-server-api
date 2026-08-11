@@ -10,7 +10,6 @@
 | `current_task` | [database.MirrorTask](database-MirrorTask.md) | No |  |
 | `current_task_id` | integer | No |  |
 | `id` | integer | No |  |
-| `interval` | string | No |  |
 | `last_message` | string | No |  |
 | `last_updated_at` | string | No |  |
 | `local_repo_path` | string | No |  |

@@ -1,10 +1,10 @@
 # GET /agent/templates
 
 **Resource:** [Agent](../resources/Agent.md)
-**List agent templates for the current user**
+**List public agent templates**
 **Operation ID:** `get--agent-templates`
 
-Get all agent templates belonging to the current user
+Anonymous callers receive public templates only; authenticated callers also receive their own templates
 
 ## Parameters
 
@@ -20,9 +20,5 @@ Get all agent templates belonging to the current user
 | Status | Description |
 |--------|-------------|
 | 200 | OK |
-| 401 | Unauthorized |
 | 500 | Internal server error |
 
-## Security
-
-- **ApiKey**

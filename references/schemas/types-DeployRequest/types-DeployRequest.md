@@ -26,6 +26,7 @@
 | `instance` | string | No |  |
 | `instance_name` | string | No |  |
 | `instances` | types.Instance[] | No |  |
+| `limit` | integer | No |  |
 | `max_replica` | integer | No |  |
 | `message` | string | No |  |
 | `min_replica` | integer | No |  |

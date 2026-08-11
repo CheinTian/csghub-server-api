@@ -11,4 +11,5 @@
 - `prompt`
 - `mcp`
 - `skill`
+- `organization`
 - `unknown`

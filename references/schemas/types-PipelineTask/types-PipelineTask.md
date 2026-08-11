@@ -9,6 +9,9 @@
 - `image-to-image`
 - `text-to-video`
 - `image-to-video`
+- `audio-text-to-video`
+- `audio-image-text-to-video`
+- `audio-driven-video-continuation`
 - `image-text-to-text`
 - `feature-extraction`
 - `sentence-similarity`
@@ -19,3 +22,4 @@
 - `text-to-audio`
 - `automatic-speech-recognition`
 - `auto-speech-recognition`
+- `optical-character-recognition`

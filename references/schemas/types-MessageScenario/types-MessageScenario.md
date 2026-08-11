@@ -17,6 +17,7 @@
 - `low-balance`
 - `recharge-success`
 - `weekly-recharges`
+- `llmlog-sync`
 - `deployment`
 - `negative-balance`
 - `resource-application`

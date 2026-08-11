@@ -10,6 +10,9 @@ Get deploys by time range and return as CSV file download
 
 | Name | In | Type | Required | Description |
 |------|------|------|----------|-------------|
+| `status` | query | integer | No | status |
+| `resource_id` | query | string | No | resource id |
+| `search` | query | string | No | search keyword |
 | `start_time` | query | string | No | start time (e.g., 2024-01-01 or 2024-01-01 00:00:00) |
 | `end_time` | query | string | No | end time (e.g., 2024-01-31 or 2024-01-31 23:59:59) |
 

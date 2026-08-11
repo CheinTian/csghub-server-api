@@ -1,24 +1,21 @@
 # POST /v1/videos
 
 **Resource:** [AIGateway](../resources/AIGateway.md)
-**Create a video generation**
+**Create a video generation (deprecated)**
 **Operation ID:** `post--v1-videos`
+⚠️ **Deprecated**
 
-Creates an OpenAI-compatible text-to-video or image-to-video generation request. Image input can be supplied by JSON input_reference or multipart input_reference.
+Deprecated: use POST /v1/video/generations instead.
 
 ## Request Body
 
+Video generation request
+
+**Required:** Yes
+
 **Content Types:** `application/json`, `multipart/form-data`
 
-**Schema** (inline):
-
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `model` | string | No | Model ID for multipart requests |
-| `prompt` | string | No | Video prompt for multipart requests |
-| `size` | string | No | Video size for multipart requests |
-| `seconds` | integer (int32) | No | Video duration in seconds for multipart requests |
-| `input_reference` | string (binary) | No | Image input reference for multipart image-to-video requests |
+**Schema:** [types.VideoGenerationRequest](../schemas/types-VideoGenerationRequest/types-VideoGenerationRequest.md)
 
 ## Responses
 

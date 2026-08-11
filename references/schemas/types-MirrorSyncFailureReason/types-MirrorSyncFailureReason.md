@@ -1,0 +1,13 @@
+# types.MirrorSyncFailureReason
+
+**Type:** enum
+
+## Values
+
+- `REPO_SYNC_FAILED`
+- `LFS_SYNC_FAILED`
+- `REPO_RETRY_EXHAUSTED`
+- `LFS_RETRY_EXHAUSTED`
+- `LFS_INCOMPLETE`
+- `LFS_TOO_LARGE`
+- `SYNC_CANCELLED`

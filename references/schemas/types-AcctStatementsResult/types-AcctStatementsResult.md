@@ -13,6 +13,7 @@
 | `total_consumption` | number | No |  |
 | `total_count` | number | No |  |
 | `total_duration` | number | No |  |
+| `total_prompt_cached_token` | number | No |  |
 | `total_prompt_token` | number | No |  |
 | `total_value` | number | No |  |
 | `total_voucher_value` | number | No |  |

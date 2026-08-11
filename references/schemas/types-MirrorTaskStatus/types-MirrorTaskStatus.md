@@ -14,5 +14,5 @@
 - `finished`
 - `fatal`
 - `incomplete`
-- `cancelled`
 - `too_large`
+- `cancelled`
