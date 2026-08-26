@@ -7,6 +7,7 @@
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
 | `image_url` | string | No |  |
+| `images` | types.OCRImage[] | No |  |
 | `index` | integer | No |  |
 | `lines` | types.OCRLine[] | No |  |
 | `markdown` | string | No |  |

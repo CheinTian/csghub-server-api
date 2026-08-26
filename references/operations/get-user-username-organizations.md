@@ -4,7 +4,7 @@
 **Get organizations the user belongs to**
 **Operation ID:** `get--user-{username}-organizations`
 
-get organizations the specified user belongs to, with optional role filter (all, owner, write, admin)
+get organizations the specified user belongs to, with optional role filter (all, write, admin)
 
 ## Parameters
 
@@ -14,7 +14,7 @@ get organizations the specified user belongs to, with optional role filter (all,
 | `search` | query | string | No | search keyword |
 | `org_type` | query | string | No | org type filter |
 | `verify_status` | query | string | No | verify status filter |
-| `role` | query | string | No | role filter: all (any member), owner, write, admin |
+| `role` | query | string | No | role filter: all (any member), write, admin |
 | `tag` | query | string | No | filter by tag name |
 | `per` | query | integer | No | page size |
 | `page` | query | integer | No | page number |

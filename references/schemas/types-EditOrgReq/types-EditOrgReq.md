@@ -11,7 +11,6 @@
 | `logo` | string | No |  |
 | `nickname` | string | No | Display name |
 | `org_type` | string | No |  |
-| `owner` | string | No |  |
 | `tag_ids` | integer[] | No |  |
 | `verified` | boolean | No |  |
 

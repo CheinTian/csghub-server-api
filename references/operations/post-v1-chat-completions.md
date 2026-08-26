@@ -14,7 +14,7 @@ Chat completion request
 
 **Content Types:** `application/json`
 
-**Schema:** [handler.ChatCompletionRequest](../schemas/handler-ChatCompletionRequest/handler-ChatCompletionRequest.md)
+**Schema:** [types.ChatCompletionRequest](../schemas/types-ChatCompletionRequest/types-ChatCompletionRequest.md)
 
 ## Responses
 

@@ -16,9 +16,10 @@
 | POST | `/v1/images/edits` | Edit image from prompt and input image | [View](../operations/post-v1-images-edits.md) |
 | POST | `/v1/images/generations` | Generate image from text prompt | [View](../operations/post-v1-images-generations.md) |
 | GET | `/v1/mcp/resources` | List recommanded mcp servers | [View](../operations/get-v1-mcp-resources.md) |
+| POST | `/v1/messages` | Anthropic Messages API | [View](../operations/post-v1-messages.md) |
 | GET | `/v1/models` | List available models | [View](../operations/get-v1-models.md) |
 | GET | `/v1/models/{model}` | Get model details | [View](../operations/get-v1-models-model.md) |
-| POST | `/v1/ocr` | Extract text from an image with OCR | [View](../operations/post-v1-ocr.md) |
+| POST | `/v1/ocr` | Extract text from an image or document with OCR | [View](../operations/post-v1-ocr.md) |
 | POST | `/v1/responses` | Create a model response | [View](../operations/post-v1-responses.md) |
 | POST | `/v1/video/generations` | Create a video generation | [View](../operations/post-v1-video-generations.md) |
 | GET | `/v1/video/generations/{video_id}` | Get a video generation | [View](../operations/get-v1-video-generations-video-id.md) |

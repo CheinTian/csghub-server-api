@@ -7,6 +7,7 @@
 | GET | `/licenses` | List license | [View](../operations/get-licenses.md) |
 | PUT | `/licenses/import` | Import a license | [View](../operations/put-licenses-import.md) |
 | POST | `/licenses/management` | Create a license | [View](../operations/post-licenses-management.md) |
+| GET | `/licenses/management/features` | List license feature definitions | [View](../operations/get-licenses-management-features.md) |
 | GET | `/licenses/management/{id}` | Get a license by id | [View](../operations/get-licenses-management-id.md) |
 | PUT | `/licenses/management/{id}` | Update a license by id | [View](../operations/put-licenses-management-id.md) |
 | GET | `/licenses/status` | Get active license status | [View](../operations/get-licenses-status.md) |

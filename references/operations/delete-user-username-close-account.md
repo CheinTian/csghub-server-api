@@ -19,6 +19,7 @@
 |--------|-------------|
 | 200 | OK |
 | 400 | Bad request |
+| 409 | The user is the last administrator of an organization |
 | 500 | Internal server error |
 
 **Success Response Schema:**

@@ -13,6 +13,7 @@
 | `page` | query | integer | No | page index |
 | `current_user` | query | string | No | current user |
 | `search` | query | string | No | search by path or deployname |
+| `status` | query | string | No | status filter |
 
 ## Responses
 

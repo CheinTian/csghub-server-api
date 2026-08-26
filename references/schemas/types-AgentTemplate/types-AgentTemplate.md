@@ -9,6 +9,7 @@
 | `content` | string | No | Used to store the complete content of the template |
 | `created_at` | string | No | When the template was created |
 | `description` | string | No | Agent template description |
+| `editable` | boolean | No | Whether the template is editable (only the owner can delete) |
 | `id` | integer | No |  |
 | `is_pinned` | boolean | No | Whether the template is pinned by the user |
 | `metadata` | object | No | Template metadata |

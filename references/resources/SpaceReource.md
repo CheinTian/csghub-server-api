@@ -4,6 +4,7 @@
 
 | Method | Path | Summary | Details |
 |--------|------|---------|----------|
+| PUT | `/admin/scenario_constraints/{id}` | Update scenario constraint | [View](../operations/put-admin-scenario-constraints-id.md) |
 | GET | `/admin/space_resources` | List all space resources for admin | [View](../operations/get-admin-space-resources.md) |
 | GET | `/space_resources` | Get space resources | [View](../operations/get-space-resources.md) |
 | POST | `/space_resources` | Create space resource | [View](../operations/post-space-resources.md) |

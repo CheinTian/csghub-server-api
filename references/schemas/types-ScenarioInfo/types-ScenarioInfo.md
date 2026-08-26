@@ -10,6 +10,7 @@
 | `code` | integer | No |  |
 | `exclude_hardware` | integer | No |  |
 | `i18n_key` | string | No |  |
+| `id` | integer | No |  |
 | `max_replica` | integer | No |  |
 | `name` | string | No |  |
 | `required_hardware` | integer | No |  |

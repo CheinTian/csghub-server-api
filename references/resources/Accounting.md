@@ -13,6 +13,7 @@
 | PUT | `/accounting/credit/{id}/recharge` | Recharge fee for account | [View](../operations/put-accounting-credit-id-recharge.md) |
 | GET | `/accounting/credit/{id}/recharge/list` | List recharges by user or org uuid and start time and end time | [View](../operations/get-accounting-credit-id-recharge-list.md) |
 | GET | `/accounting/credit/{id}/statements` | List statements by user uuid and start time and end time | [View](../operations/get-accounting-credit-id-statements.md) |
+| POST | `/accounting/credit/{uuid}/deduct` | Sync deduct credit | [View](../operations/post-accounting-credit-uuid-deduct.md) |
 | GET | `/accounting/metering/{id}/statements` | List meterings by user uuid and start time and end time | [View](../operations/get-accounting-metering-id-statements.md) |
 | GET | `/accounting/multisync/download` | Get account quota statement | [View](../operations/get-accounting-multisync-download.md) |
 | POST | `/accounting/multisync/downloads` | Add download count | [View](../operations/post-accounting-multisync-downloads.md) |

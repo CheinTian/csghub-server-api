@@ -14,7 +14,7 @@ Image generation request
 
 **Content Types:** `application/json`
 
-**Schema:** [handler.ImageGenerationRequest](../schemas/handler-ImageGenerationRequest/handler-ImageGenerationRequest.md)
+**Schema:** [types.ImageGenerationRequest](../schemas/types-ImageGenerationRequest/types-ImageGenerationRequest.md)
 
 ## Responses
 

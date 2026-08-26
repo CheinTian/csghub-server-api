@@ -20,7 +20,7 @@ Updated template data
 
 **Content Types:** `application/json`
 
-**Schema:** [types.AgentTemplate](../schemas/types-AgentTemplate/types-AgentTemplate.md)
+**Schema:** [types.UpdateAgentTemplateRequest](../schemas/types-UpdateAgentTemplateRequest/types-UpdateAgentTemplateRequest.md)
 
 ## Responses
 

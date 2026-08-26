@@ -12,6 +12,7 @@ Anonymous callers receive public templates only; authenticated callers also rece
 |------|------|------|----------|-------------|
 | `search` | query | string | No | search text |
 | `type` | query | enum: langflow, code | No | type |
+| `editable` | query | boolean | No | filter by whether the template is editable by the caller (true = owned by caller) |
 | `per` | query | integer | No | per |
 | `page` | query | integer | No | per page |
 

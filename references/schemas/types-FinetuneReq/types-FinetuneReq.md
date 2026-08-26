@@ -23,4 +23,5 @@
 | `task_desc` | string | No |  |
 | `task_name` | string | No |  |
 | `tolerations` | types.Toleration[] | No |  |
+| `volume_mounts` | types.VolumeMount[] | No |  |
 

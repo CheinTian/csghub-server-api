@@ -31,4 +31,5 @@
 | `tolerations` | types.Toleration[] | No |  |
 | `trace_dir` | string | No |  |
 | `trials` | integer | No |  |
+| `volume_mounts` | types.VolumeMount[] | No |  |
 

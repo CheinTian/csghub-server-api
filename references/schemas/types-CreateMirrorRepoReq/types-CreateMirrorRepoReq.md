@@ -15,8 +15,7 @@ true requires a new target, and false requires an existing target. |
 | `fork_name` | string | No |  |
 | `fork_namespace` | string | No | fork repo, local namespace/name |
 | `license` | string | No |  |
-| `mcp_server_attributes` | object | No | MCP only |
-| `mirror_source_id` | integer | No | source id for HF,github etc |
+| `mirror_source_id` | integer | No | MirrorSourceID selects a configured source and is required for non-OpenCSG MCP and skill metadata APIs. |
 | `priority` | object | No | Priority controls scheduling order within the selected mirror queue. |
 | `private` | boolean | No |  |
 | `repo_type` | object | Yes | repo basic info |

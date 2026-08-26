@@ -8,6 +8,8 @@
 |-------|------|----------|-------------|
 | `description` | string | No |  |
 | `homepage` | string | No |  |
+| `is_root` | boolean | No | IsRoot reports whether this is a top-level organization. |
+| `is_unit` | boolean | No | IsUnit reports whether this organization belongs to the hierarchy model. |
 | `logo` | string | No |  |
 | `name` | string | No |  |
 | `namespace` | [types.Namespace](types-Namespace.md) | No |  |

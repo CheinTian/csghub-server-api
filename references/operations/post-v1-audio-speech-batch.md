@@ -14,7 +14,7 @@ Batch speech generation request
 
 **Content Types:** `application/json`
 
-**Schema:** [handler.BatchSpeechRequest](../schemas/handler-BatchSpeechRequest/handler-BatchSpeechRequest.md)
+**Schema:** [types.BatchSpeechRequest](../schemas/types-BatchSpeechRequest/types-BatchSpeechRequest.md)
 
 ## Responses
 

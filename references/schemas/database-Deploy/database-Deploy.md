@@ -31,6 +31,7 @@ running image of cluster, comes from builder or pre-define |
 | `owner_namespace` | string | No |  |
 | `pd` | [types.PDConfig](types-PDConfig.md) | No |  |
 | `queue_name` | string | No |  |
+| `readiness_probe` | [types.SandboxReadinessProbe](types-SandboxReadinessProbe.md) | No |  |
 | `reason` | string | No |  |
 | `repo_id` | integer | No | repository_id of model/space/code/dataset |
 | `repository` | [database.Repository](database-Repository.md) | No |  |
@@ -44,7 +45,7 @@ running image of cluster, comes from builder or pre-define |
 | `svc_name` | string | No |  |
 | `task` | object | No | text-generation,text-to-image,image-to-image,text-to-speech |
 | `template` | string | No |  |
-| `timeout` | integer | No |  |
+| `timeout` | integer | No | reserved: written from dr.Sandbox.Timeout but not yet consumed downstream |
 | `tolerations` | types.Toleration[] | No |  |
 | `type` | integer | No | 0-space, 1-inference, 2-finetune, 3-serverless, 4-evaluation, 5-notebook |
 | `updated_at` | string | No |  |
@@ -52,4 +53,5 @@ running image of cluster, comes from builder or pre-define |
 | `user_id` | integer | No | user_id trigger deploy action, rather than repo owner user_id |
 | `user_uuid` | string | No |  |
 | `variables` | string | No |  |
+| `volume_mounts` | types.VolumeMount[] | No |  |
 

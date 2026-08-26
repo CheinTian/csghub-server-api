@@ -4,6 +4,8 @@
 **Transfer repository ownership to another namespace**
 **Operation ID:** `post--{repo_type}-{namespace}-{name}-transfer`
 
+Requires administrator permission on both source and target namespaces.
+
 ## Parameters
 
 | Name | In | Type | Required | Description |

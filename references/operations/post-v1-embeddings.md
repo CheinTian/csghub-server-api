@@ -14,7 +14,7 @@ Embedding request
 
 **Content Types:** `application/json`
 
-**Schema:** [handler.EmbeddingRequest](../schemas/handler-EmbeddingRequest/handler-EmbeddingRequest.md)
+**Schema:** [types.EmbeddingRequest](../schemas/types-EmbeddingRequest/types-EmbeddingRequest.md)
 
 ## Responses
 

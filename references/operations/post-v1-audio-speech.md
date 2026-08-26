@@ -14,7 +14,7 @@ Speech generation request
 
 **Content Types:** `application/json`
 
-**Schema:** [handler.SpeechRequest](../schemas/handler-SpeechRequest/handler-SpeechRequest.md)
+**Schema:** [types.SpeechRequest](../schemas/types-SpeechRequest/types-SpeechRequest.md)
 
 ## Responses
 

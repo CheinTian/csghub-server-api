@@ -18,6 +18,7 @@
 - `recharge-success`
 - `weekly-recharges`
 - `llmlog-sync`
+- `llmlog-curated-dataflow`
 - `deployment`
 - `negative-balance`
 - `resource-application`

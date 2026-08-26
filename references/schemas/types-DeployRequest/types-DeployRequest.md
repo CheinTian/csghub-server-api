@@ -66,6 +66,7 @@
 | `user_id` | integer | No |  |
 | `user_uuid` | string | No |  |
 | `variables` | string | No |  |
+| `volume_mounts` | types.VolumeMount[] | No |  |
 
 ## Nested Fields
 
@@ -73,6 +74,7 @@
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
+| `readiness_probe` | [types.SandboxReadinessProbe](types-SandboxReadinessProbe.md) | No |  |
 | `templateID` | string | No |  |
 | `timeout` | integer | No |  |
 

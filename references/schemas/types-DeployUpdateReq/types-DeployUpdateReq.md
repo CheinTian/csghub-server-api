@@ -21,4 +21,5 @@
 | `secure_level` | integer | No |  |
 | `tolerations` | types.Toleration[] | No |  |
 | `variables` | string | No |  |
+| `volume_mounts` | types.VolumeMount[] | No |  |
 

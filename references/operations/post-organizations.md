@@ -1,20 +1,14 @@
 # POST /organizations
 
-**Resource:** [Organization](../resources/Organization.md)
-**Create a new organization**
+**Resource:** [OrganizationUnit](../resources/OrganizationUnit.md)
+**Create a top-level organization**
 **Operation ID:** `post--organizations`
 
-create a new organization
-
-## Parameters
-
-| Name | In | Type | Required | Description |
-|------|------|------|----------|-------------|
-| `current_user` | query | string | No | the op user |
+Creates a root organization, initializes its hierarchy node, and adds the current user as an administrator.
 
 ## Request Body
 
-body
+Organization fields
 
 **Required:** Yes
 
@@ -27,8 +21,8 @@ body
 | Status | Description |
 |--------|-------------|
 | 200 | OK |
-| 400 | Bad request |
-| 500 | Internal server error |
+| 400 | Bad Request |
+| 500 | Internal Server Error |
 
 ## Security
 
