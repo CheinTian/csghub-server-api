@@ -10,7 +10,9 @@
 | `custom_args` | string | No |  |
 | `dataset_id` | string | Yes |  |
 | `dataset_revision` | string | No |  |
+| `engine_version` | string | No |  |
 | `epochs` | integer | No |  |
+| `keep_work_dir` | boolean | No |  |
 | `learning_rate` | number | No |  |
 | `model_id` | string | Yes |  |
 | `namespace` | string | No |  |

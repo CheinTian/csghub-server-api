@@ -15,9 +15,12 @@
 | DELETE | `/agent/instances/by-content-id/{type}/{content_id}` | Delete an agent instance by type and content id | [View](../operations/delete-agent-instances-by-content-id-type-content-id.md) |
 | POST | `/agent/instances/monitor` | Monitor status for agent instances | [View](../operations/post-agent-instances-monitor.md) |
 | GET | `/agent/instances/status` | Get status for multiple agent instances with SSE | [View](../operations/get-agent-instances-status.md) |
+| GET | `/agent/instances/ui-options` | List accessible Agent UI Spaces | [View](../operations/get-agent-instances-ui-options.md) |
 | GET | `/agent/instances/{id}` | Get an agent instance by ID | [View](../operations/get-agent-instances-id.md) |
 | PUT | `/agent/instances/{id}` | Update an existing agent instance | [View](../operations/put-agent-instances-id.md) |
 | DELETE | `/agent/instances/{id}` | Delete an agent instance | [View](../operations/delete-agent-instances-id.md) |
+| POST | `/agent/instances/{id}/restart` | Restart an agent instance in place | [View](../operations/post-agent-instances-id-restart.md) |
+| POST | `/agent/instances/{id}/resume` | Resume an agent instance | [View](../operations/post-agent-instances-id-resume.md) |
 | GET | `/agent/instances/{id}/sessions` | List sessions by instance ID | [View](../operations/get-agent-instances-id-sessions.md) |
 | POST | `/agent/instances/{id}/sessions` | Create a new session for an agent instance | [View](../operations/post-agent-instances-id-sessions.md) |
 | GET | `/agent/instances/{id}/sessions/{session_uuid}` | Get session by session UUID | [View](../operations/get-agent-instances-id-sessions-session-uuid.md) |
@@ -29,6 +32,7 @@
 | PUT | `/agent/instances/{id}/sessions/{session_uuid}/histories/{msg_uuid}/rewrite` | Rewrite an output message | [View](../operations/put-agent-instances-id-sessions-session-uuid-histories-msg-uuid-rewrite.md) |
 | POST | `/agent/instances/{id}/sessions/{session_uuid}/share` | Share a session | [View](../operations/post-agent-instances-id-sessions-session-uuid-share.md) |
 | POST | `/agent/instances/{id}/share` | Share a public agent instance | [View](../operations/post-agent-instances-id-share.md) |
+| POST | `/agent/instances/{id}/suspend` | Suspend an agent instance | [View](../operations/post-agent-instances-id-suspend.md) |
 | GET | `/agent/instances/{instance_id}/schedulers` | List agent schedulers for an instance | [View](../operations/get-agent-instances-instance-id-schedulers.md) |
 | POST | `/agent/instances/{instance_id}/schedulers` | Create agent scheduler | [View](../operations/post-agent-instances-instance-id-schedulers.md) |
 | GET | `/agent/instances/{instance_id}/schedulers/{scheduler_id}` | Get agent scheduler by ID | [View](../operations/get-agent-instances-instance-id-schedulers-scheduler-id.md) |

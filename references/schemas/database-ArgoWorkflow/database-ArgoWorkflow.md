@@ -9,17 +9,22 @@
 | `cluster_id` | string | No |  |
 | `cluster_node` | string | No |  |
 | `dag_tasks` | string | No |  |
+| `dataset_revisions` | string[] | No |  |
 | `datasets` | string[] | No |  |
 | `deleted_at` | string | No |  |
 | `download_url` | string | No |  |
 | `end_time` | string | No |  |
 | `failures_url` | string | No |  |
+| `framework_config` | string | No |  |
+| `hardware` | [types.HardWare](types-HardWare.md) | No |  |
 | `id` | integer | No |  |
 | `image` | string | No | ArgoWorkFlow framework |
 | `namespace` | string | No |  |
 | `queue_name` | string | No |  |
 | `reason` | string | No | reason for status |
 | `repo_ids` | string[] | No |  |
+| `repo_revisions` | string[] | No | Snapshot of the versions and settings the task was submitted with.
+RepoRevisions is index-aligned with RepoIds, DatasetRevisions with Datasets. |
 | `repo_type` | string | No |  |
 | `resource_id` | integer | No |  |
 | `resource_name` | string | No |  |

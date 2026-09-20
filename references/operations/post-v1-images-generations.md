@@ -29,6 +29,3 @@ Image generation request
 
 [types.ImageGenerationResponse](../schemas/types-ImageGenerationResponse/types-ImageGenerationResponse.md)
 
-## Security
-
-- **ApiKey**

@@ -7,6 +7,7 @@
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
 | `build_cmds` | string | No |  |
+| `compliance_status` | object | No |  |
 | `configuration` | string | No |  |
 | `default_branch` | string | No |  |
 | `description` | string | No | The new description for the repository |

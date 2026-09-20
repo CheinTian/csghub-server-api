@@ -4,7 +4,7 @@
 **Get organization notebooks**
 **Operation ID:** `get--organization-{namespace}-notebooks`
 
-get organization notebooks
+get organization notebooks; returns an empty list when access is denied.
 
 ## Parameters
 

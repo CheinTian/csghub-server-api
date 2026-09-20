@@ -29,6 +29,3 @@ Batch speech generation request
 
 [types.Response](../schemas/types-Response/types-Response.md)
 
-## Security
-
-- **ApiKey**

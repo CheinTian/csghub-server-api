@@ -3,6 +3,7 @@
 **Resource:** [Organization](../resources/Organization.md)
 **Get organizations the user belongs to**
 **Operation ID:** `get--user-{username}-organizations`
+⚠️ **Deprecated**
 
 get organizations the specified user belongs to, with optional role filter (all, write, admin)
 

@@ -7,6 +7,7 @@
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
 | `cluster_id` | string | No |  |
+| `compliance_status` | object | No |  |
 | `cover_image_url` | string | No |  |
 | `default_branch` | string | No |  |
 | `description` | string | No | The new description for the repository |

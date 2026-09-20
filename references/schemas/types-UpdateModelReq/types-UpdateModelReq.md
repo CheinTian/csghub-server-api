@@ -7,6 +7,7 @@
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
 | `base_model` | string | No |  |
+| `compliance_status` | object | No |  |
 | `default_branch` | string | No |  |
 | `description` | string | No | The new description for the repository |
 | `high_risk_count` | integer | No |  |

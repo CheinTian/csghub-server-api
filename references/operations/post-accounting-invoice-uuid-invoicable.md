@@ -1,10 +1,10 @@
 # POST /accounting/invoice/{uuid}/invoicable
 
 **Resource:** [Accounting-Invoices](../resources/Accounting-Invoices.md)
-**Get the list of invoicable items**
+**Get the list of invoicable recharge orders**
 **Operation ID:** `post--accounting-invoice-{uuid}-invoicable`
 
-Get the list of invoicable items based on the user's UUID and time range.
+Get the list of paid recharge orders that are not invoiced yet, based on the user's UUID.
 
 ## Parameters
 

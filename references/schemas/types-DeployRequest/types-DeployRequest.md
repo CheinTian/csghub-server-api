@@ -17,6 +17,7 @@
 | `desired_replica` | integer | No |  |
 | `endpoint` | string | No |  |
 | `engine_args` | string | No |  |
+| `engine_version` | string | No |  |
 | `entrypoint` | string | No |  |
 | `env` | string | No |  |
 | `git_branch` | string | No |  |
@@ -27,6 +28,7 @@
 | `instance_name` | string | No |  |
 | `instances` | types.Instance[] | No |  |
 | `limit` | integer | No |  |
+| `llm_config_id` | integer | No | aigateway llm_config resolved from the deploy's upstream |
 | `max_replica` | integer | No |  |
 | `message` | string | No |  |
 | `min_replica` | integer | No |  |

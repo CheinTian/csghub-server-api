@@ -6,6 +6,8 @@
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
+| `commercial_permission` | [types.CommercialPermission](types-CommercialPermission.md) | No |  |
+| `compliance_status` | [types.ComplianceStatus](types-ComplianceStatus.md) | No |  |
 | `created_at` | string | No |  |
 | `csg_path` | string | No |  |
 | `current_xnet_migration_task` | [database.XnetMigrationTask](database-XnetMigrationTask.md) | No |  |
@@ -31,6 +33,7 @@
 | `ms_path` | string | No |  |
 | `name` | string | No |  |
 | `nickname` | string | No |  |
+| `org_inherit_blocked` | boolean | No | OrgInheritBlocked disables inherited permissions from the repository organization. |
 | `path` | string | No |  |
 | `private` | boolean | No |  |
 | `readme` | string | No | Depreated |

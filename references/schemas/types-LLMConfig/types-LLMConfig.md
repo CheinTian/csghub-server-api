@@ -18,6 +18,7 @@
 | `repo` | [types.RepositoryLite](types-RepositoryLite.md) | No |  |
 | `repo_id` | integer | No |  |
 | `routing_policy` | [types.RoutingPolicy](types-RoutingPolicy.md) | No |  |
+| `source` | [types.UpstreamSource](types-UpstreamSource.md) | No |  |
 | `types` | integer[] | No | individual type flags derived from Type |
 | `updated_at` | string | No |  |
 | `upstreams` | types.UpstreamConfig[] | No |  |

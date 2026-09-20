@@ -6,7 +6,8 @@
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
-| `can_manage` | boolean | No |  |
+| `can_admin` | boolean | No |  |
+| `can_read` | boolean | No |  |
 | `can_write` | boolean | No |  |
 | `cluster_id` | string | No |  |
 | `cover_image_url` | string | No |  |

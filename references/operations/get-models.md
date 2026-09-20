@@ -23,6 +23,7 @@ get visiable models for current user
 | `sort` | query | string | No | sort by |
 | `source` | query | enum: opencsg, huggingface, local | No | source |
 | `xnet_migration_status` | query | enum: pending, running, completed... | No | filter by xnet migration status |
+| `compliance_status` | query | enum: compliant, pending_review, non_compliant | No | filter by compliance status |
 | `per` | query | integer | No | per |
 | `page` | query | integer | No | per page |
 | `model_tree` | query | string | No | example: base_model:finetune:1 |

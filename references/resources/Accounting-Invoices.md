@@ -15,7 +15,7 @@
 | GET | `/accounting/invoice/{id}` | Get an invoice by ID. | [View](../operations/get-accounting-invoice-id.md) |
 | POST | `/accounting/invoice/{uuid}/create` | Create a new invoice | [View](../operations/post-accounting-invoice-uuid-create.md) |
 | POST | `/accounting/invoice/{uuid}/dashboard` | Get invoice dashboard data | [View](../operations/post-accounting-invoice-uuid-dashboard.md) |
-| POST | `/accounting/invoice/{uuid}/invoicable` | Get the list of invoicable items | [View](../operations/post-accounting-invoice-uuid-invoicable.md) |
+| POST | `/accounting/invoice/{uuid}/invoicable` | Get the list of invoicable recharge orders | [View](../operations/post-accounting-invoice-uuid-invoicable.md) |
 | POST | `/accounting/invoice/{uuid}/list` | List the user's invoice list | [View](../operations/post-accounting-invoice-uuid-list.md) |
 | POST | `/accounting/invoice/{uuid}/title` | Create a new invoice title. | [View](../operations/post-accounting-invoice-uuid-title.md) |
 | POST | `/accounting/invoice/{uuid}/title/list` | List all invoice titles | [View](../operations/post-accounting-invoice-uuid-title-list.md) |

@@ -6,14 +6,18 @@
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
+| `dataset_revisions` | string[] | No |  |
 | `datasets` | types.RepoTags[] | No |  |
 | `download_url` | string | No |  |
 | `end_time` | string | No |  |
 | `failures_url` | string | No |  |
+| `framework_config` | string | No |  |
+| `hardware` | [types.HardWare](types-HardWare.md) | No |  |
 | `id` | integer | No |  |
 | `image` | string | No |  |
 | `reason` | string | No |  |
 | `repo_ids` | string[] | No |  |
+| `repo_revisions` | string[] | No | RepoRevisions is index-aligned with RepoIds; DatasetRevisions with Datasets. |
 | `repo_type` | string | No |  |
 | `resource_id` | integer | No |  |
 | `resource_name` | string | No |  |

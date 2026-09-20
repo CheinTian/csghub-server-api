@@ -4,7 +4,7 @@
 **Create a new invoice**
 **Operation ID:** `post--accounting-invoice-{uuid}-create`
 
-Create a new invoice based on the request parameters provided by the user. Before creation, check the bill date, invoice amount, etc.
+Create a new invoice for the selected paid recharge orders. The invoice amount is computed from the orders server-side.
 
 ## Parameters
 

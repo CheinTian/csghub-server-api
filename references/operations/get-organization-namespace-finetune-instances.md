@@ -4,7 +4,7 @@
 **Get organization finetune instances**
 **Operation ID:** `get--organization-{namespace}-finetune-instances`
 
-get organization finetune instances
+get organization finetune instances; returns an empty list when access is denied.
 
 ## Parameters
 

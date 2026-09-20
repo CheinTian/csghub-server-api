@@ -7,7 +7,8 @@
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
 | `avatar` | string | No |  |
-| `can_manage` | boolean | No |  |
+| `can_admin` | boolean | No |  |
+| `can_read` | boolean | No |  |
 | `can_write` | boolean | No |  |
 | `created_at` | string | No |  |
 | `description` | string | No |  |

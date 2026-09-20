@@ -6,6 +6,7 @@
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
+| `compliance_status` | object | No |  |
 | `default_branch` | string | No |  |
 | `description` | string | No | The new description for the repository |
 | `nickname` | string | No | The new display name of the repository |

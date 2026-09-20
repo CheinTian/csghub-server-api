@@ -4,7 +4,7 @@
 **Get organization run deploys (e.g. inference)**
 **Operation ID:** `get--organization-{namespace}-run-{repo_type}`
 
-get organization run deploys by deploy type (0-space, 1-inference, 2-finetune)
+get organization run deploys by deploy type (0-space, 1-inference, 2-finetune); returns an empty list when access is denied.
 
 ## Parameters
 

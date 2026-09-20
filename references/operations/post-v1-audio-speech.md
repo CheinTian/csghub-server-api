@@ -25,6 +25,3 @@ Speech generation request
 | 404 | Model not found |
 | 500 | Internal server error |
 
-## Security
-
-- **ApiKey**

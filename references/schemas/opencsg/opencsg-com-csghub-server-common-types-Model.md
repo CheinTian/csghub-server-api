@@ -8,8 +8,11 @@
 |-------|------|----------|-------------|
 | `arch_allowed` | boolean | No |  |
 | `base_model` | string | No |  |
-| `can_manage` | boolean | No |  |
+| `can_admin` | boolean | No |  |
+| `can_read` | boolean | No |  |
 | `can_write` | boolean | No |  |
+| `commercial_permission` | [types.CommercialPermission](types-CommercialPermission.md) | No |  |
+| `compliance_status` | [types.ComplianceStatus](types-ComplianceStatus.md) | No |  |
 | `created_at` | string | No |  |
 | `csg_path` | string | No |  |
 | `default_branch` | string | No |  |
@@ -24,6 +27,7 @@
 | `hf_path` | string | No |  |
 | `high_risk_count` | integer | No |  |
 | `id` | integer | No |  |
+| `is_organization` | boolean | No |  |
 | `license` | string | No |  |
 | `likes` | integer | No |  |
 | `medium_risk_count` | integer | No |  |

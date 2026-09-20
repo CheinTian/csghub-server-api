@@ -5,5 +5,8 @@
 ## Values
 
 - `unlimited`
+- `daily`
 - `monthly`
 - `total`
+- `scope`
+- `per_minute`

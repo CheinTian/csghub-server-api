@@ -5,3 +5,7 @@
 ## Values
 
 - `fee`
+- `token`
+- `request`
+- `models`
+- `priority`

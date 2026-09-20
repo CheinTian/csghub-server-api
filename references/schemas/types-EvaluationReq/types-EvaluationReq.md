@@ -12,10 +12,13 @@
 | `config` | string | No |  |
 | `custom_datasets` | string[] | No | custom datasets |
 | `datasets` | string[] | No |  |
+| `engine_version` | string | No |  |
+| `framework_config` | string | No |  |
 | `judge_model` | string | No |  |
 | `model` | string | No |  |
 | `model_id` | string | No |  |
 | `model_ids` | string[] | No | for comparison |
+| `models` | types.EvaluationModelRef[] | No | model versions to evaluate, takes precedence over ModelId/ModelIds |
 | `no_judge` | boolean | No |  |
 | `node_affinity` | [v1.NodeAffinity](v1-NodeAffinity.md) | No |  |
 | `owner_namespace` | string | No |  |

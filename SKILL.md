@@ -17,9 +17,9 @@ This API documentation is split into multiple files for on-demand loading.
 **Directory structure:**
 ```
 references/
-├── resources/      # 62 resource index files
-├── operations/     # 666 operation detail files
-└── schemas/        # 645 schema groups, 650 schema files
+├── resources/      # 63 resource index files
+├── operations/     # 685 operation detail files
+└── schemas/        # 647 schema groups, 653 schema files
 ```
 
 **Navigation flow:**
@@ -46,14 +46,14 @@ Supported methods: **ApiKey**. See `references/authentication.md` for details.
 
 ## Resources
 
-- **Agent** → `references/resources/Agent.md` (67 ops)
-- **Accounting** → `references/resources/Accounting.md` (53 ops)
+- **Agent** → `references/resources/Agent.md` (71 ops)
+- **Accounting** → `references/resources/Accounting.md` (58 ops)
 - **Repository** → `references/resources/Repository.md` (53 ops)
 - **User** → `references/resources/User.md` (48 ops)
 - **Model** → `references/resources/Model.md` (43 ops)
 - **Prompt** → `references/resources/Prompt.md` (26 ops)
-- **AIGateway** → `references/resources/AIGateway.md` (23 ops)
-- **Organization** → `references/resources/Organization.md` (19 ops)
+- **AIGateway** → `references/resources/AIGateway.md` (21 ops)
+- **Organization** → `references/resources/Organization.md` (20 ops)
 - **Cluster** → `references/resources/Cluster.md` (18 ops)
 - **Mirror** → `references/resources/Mirror.md` (17 ops)
 - **Accounting-Invoices** → `references/resources/Accounting-Invoices.md` (15 ops)
@@ -72,21 +72,22 @@ Supported methods: **ApiKey**. See `references/authentication.md` for details.
 - **Access token** → `references/resources/Access-token.md` (9 ops)
 - **Code** → `references/resources/Code.md` (8 ops)
 - **Collection** → `references/resources/Collection.md` (8 ops)
+- **RepositoryAuthorization** → `references/resources/RepositoryAuthorization.md` (8 ops)
 - **SpaceReource** → `references/resources/SpaceReource.md` (7 ops)
 - **MCP** → `references/resources/MCP.md` (7 ops)
+- **OrganizationUnit** → `references/resources/OrganizationUnit.md` (7 ops)
 - **MCP Servers** → `references/resources/MCP-Servers.md` (6 ops)
 - **Sandbox** → `references/resources/Sandbox.md` (6 ops)
 - **API Key** → `references/resources/API-Key.md` (6 ops)
-- **OrganizationUnit** → `references/resources/OrganizationUnit.md` (6 ops)
 - **Member** → `references/resources/Member.md` (6 ops)
 - **Monitor** → `references/resources/Monitor.md` (6 ops)
+- **StorageGateway** → `references/resources/StorageGateway.md` (5 ops)
 - **ApiRateLimit** → `references/resources/ApiRateLimit.md` (5 ops)
 - **Broadcasts** → `references/resources/Broadcasts.md` (5 ops)
+- **Finetune** → `references/resources/Finetune.md` (5 ops)
 - **SpaceTemplate** → `references/resources/SpaceTemplate.md` (5 ops)
 - **Moderation** → `references/resources/Moderation.md` (4 ops)
-- **StorageGateway** → `references/resources/StorageGateway.md` (4 ops)
 - **Evaluation** → `references/resources/Evaluation.md` (4 ops)
-- **Finetune** → `references/resources/Finetune.md` (4 ops)
 - **OrganizationUnitMember** → `references/resources/OrganizationUnitMember.md` (4 ops)
 - **SpaceSdk** → `references/resources/SpaceSdk.md` (4 ops)
 - **Import** → `references/resources/Import.md` (3 ops)

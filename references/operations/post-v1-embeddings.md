@@ -1,10 +1,10 @@
 # POST /v1/embeddings
 
 **Resource:** [AIGateway](../resources/AIGateway.md)
-**Get embedding for a text**
+**Create embeddings**
 **Operation ID:** `post--v1-embeddings`
 
-Sends a text to the backend model and returns the embedding
+Proxies embedding requests to model endpoints.
 
 ## Request Body
 
@@ -21,7 +21,8 @@ Embedding request
 | Status | Description |
 |--------|-------------|
 | 200 | OK |
-| 400 | Bad request or sensitive input |
+| 400 | Bad request |
+| 402 | Insufficient balance |
 | 404 | Model not found |
 | 500 | Internal server error |
 
@@ -29,6 +30,3 @@ Embedding request
 
 [types.Response](../schemas/types-Response/types-Response.md)
 
-## Security
-
-- **ApiKey**

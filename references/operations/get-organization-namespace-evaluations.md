@@ -4,7 +4,7 @@
 **Get organization evaluation jobs**
 **Operation ID:** `get--organization-{namespace}-evaluations`
 
-get organization evaluation jobs
+get organization evaluation jobs; returns an empty list when access is denied.
 
 ## Parameters
 

@@ -6,6 +6,7 @@
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
+| `compliance_status` | object | No |  |
 | `dataset_type` | [types.DatasetType](types-DatasetType.md) | No |  |
 | `default_branch` | string | No |  |
 | `description` | string | No | The new description for the repository |

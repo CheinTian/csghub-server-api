@@ -15,6 +15,9 @@
 | GET | `/accounting/credit/{id}/statements` | List statements by user uuid and start time and end time | [View](../operations/get-accounting-credit-id-statements.md) |
 | POST | `/accounting/credit/{uuid}/deduct` | Sync deduct credit | [View](../operations/post-accounting-credit-uuid-deduct.md) |
 | GET | `/accounting/metering/{id}/statements` | List meterings by user uuid and start time and end time | [View](../operations/get-accounting-metering-id-statements.md) |
+| GET | `/accounting/metering/{id}/statistics` | Query statistics by user uuid and date range | [View](../operations/get-accounting-metering-id-statistics.md) |
+| GET | `/accounting/metering/{id}/statistics/instance` | Query statistics detail by user uuid, instance name and date range | [View](../operations/get-accounting-metering-id-statistics-instance.md) |
+| GET | `/accounting/metering/{id}/summary` | Query statistics summary by user uuid and date range | [View](../operations/get-accounting-metering-id-summary.md) |
 | GET | `/accounting/multisync/download` | Get account quota statement | [View](../operations/get-accounting-multisync-download.md) |
 | POST | `/accounting/multisync/downloads` | Add download count | [View](../operations/post-accounting-multisync-downloads.md) |
 | GET | `/accounting/multisync/quota` | Get account quota by user id | [View](../operations/get-accounting-multisync-quota.md) |
@@ -47,6 +50,8 @@
 | GET | `/accounting/subscriptions/bills` | List bills by user uuid and start time and end time | [View](../operations/get-accounting-subscriptions-bills.md) |
 | GET | `/accounting/subscriptions/status` | Get user subscription status | [View](../operations/get-accounting-subscriptions-status.md) |
 | GET | `/accounting/subscriptions/status/batch` | Get a bunch of subscriptions status | [View](../operations/get-accounting-subscriptions-status-batch.md) |
+| GET | `/accounting/token-report` | Token operations report: daily rows by namespace, API key, model and provider | [View](../operations/get-accounting-token-report.md) |
+| GET | `/accounting/token-report/export` | Export token operations report as CSV (streaming) | [View](../operations/get-accounting-token-report-export.md) |
 | GET | `/accounting/vouchers` | List vouchers | [View](../operations/get-accounting-vouchers.md) |
 | POST | `/accounting/vouchers` | Create a new voucher | [View](../operations/post-accounting-vouchers.md) |
 | GET | `/accounting/vouchers/namespace/{uuid}/bill` | Get voucher bill grouped data | [View](../operations/get-accounting-vouchers-namespace-uuid-bill.md) |

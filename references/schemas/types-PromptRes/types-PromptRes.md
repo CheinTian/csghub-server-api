@@ -6,7 +6,8 @@
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
-| `can_manage` | boolean | No |  |
+| `can_admin` | boolean | No |  |
+| `can_read` | boolean | No |  |
 | `can_write` | boolean | No |  |
 | `created_at` | string | No |  |
 | `csg_path` | string | No |  |

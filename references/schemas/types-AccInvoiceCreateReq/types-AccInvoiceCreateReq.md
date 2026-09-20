@@ -6,7 +6,6 @@
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
-| `bill_cycle` | string | Yes |  |
-| `invoice_amount` | number | Yes |  |
+| `recharge_order_nos` | string[] | Yes |  |
 | `title_id` | integer | Yes |  |
 

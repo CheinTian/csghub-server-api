@@ -13,5 +13,6 @@
 | `metadata` | object | No |  |
 | `name` | string | Yes |  |
 | `public` | boolean | No | Whether the knowledge base is public |
+| `type` | [types.AgentKnowledgeBaseType](types-AgentKnowledgeBaseType.md) | No |  |
 | `updated_at` | string | No |  |
 

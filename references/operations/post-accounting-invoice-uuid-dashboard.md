@@ -4,7 +4,7 @@
 **Get invoice dashboard data**
 **Operation ID:** `post--accounting-invoice-{uuid}-dashboard`
 
-Get invoice dashboard data, including non-invoiceable amount, invoiced amount, and uninvoiced amount for the current month, based on the time range and user ID provided by the user.
+Get invoice dashboard data, including the invoiced amount and the uninvoiced amount (paid recharge orders not invoiced yet). Amounts cover all time and are in yuan.
 
 ## Parameters
 

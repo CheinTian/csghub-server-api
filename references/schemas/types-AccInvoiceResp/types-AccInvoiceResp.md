@@ -20,6 +20,8 @@
 | `invoice_type` | string | No | Invoice type |
 | `invoice_url` | string | No | Invoice URL |
 | `reason` | string | No | Reason |
+| `recharge_orders` | types.AccInvoiceRechargeOrder[] | No | Recharge orders invoiced together. Empty for legacy bill-cycle invoices
+(bill_cycle is non-empty there) and populated for recharge-based invoices. |
 | `registered_addr` | string | No | Registered address |
 | `status` | string | No | Invoice status eq processing,issued,failed |
 | `taxpayer_id` | string | No | Taxpayer identification number |

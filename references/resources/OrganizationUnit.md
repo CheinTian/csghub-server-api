@@ -6,6 +6,7 @@
 |--------|------|---------|----------|
 | DELETE | `/organization-units/{unit_uuid}` | Delete an organization department subtree | [View](../operations/delete-organization-units-unit-uuid.md) |
 | POST | `/organizations` | Create a top-level organization | [View](../operations/post-organizations.md) |
+| GET | `/organizations/mine` | Get the visible hierarchy root organization | [View](../operations/get-organizations-mine.md) |
 | PUT | `/organizations/{organization_uuid}` | Update organization fields | [View](../operations/put-organizations-organization-uuid.md) |
 | DELETE | `/organizations/{organization_uuid}` | Delete a top-level organization hierarchy | [View](../operations/delete-organizations-organization-uuid.md) |
 | GET | `/organizations/{organization_uuid}/units` | List direct child organizations | [View](../operations/get-organizations-organization-uuid-units.md) |

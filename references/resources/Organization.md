@@ -4,6 +4,7 @@
 
 | Method | Path | Summary | Details |
 |--------|------|---------|----------|
+| GET | `/namespaces/mine/writable` | Get namespaces writable by the current user | [View](../operations/get-namespaces-mine-writable.md) |
 | GET | `/organization/uuid/{uuid}` | Get organization by UUID | [View](../operations/get-organization-uuid-uuid.md) |
 | GET | `/organization/{namespace}` | Get organization info | [View](../operations/get-organization-namespace.md) |
 | PUT | `/organization/{namespace}` | Update organization | [View](../operations/put-organization-namespace.md) |

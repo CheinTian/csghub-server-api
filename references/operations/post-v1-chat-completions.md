@@ -1,10 +1,10 @@
 # POST /v1/chat/completions
 
 **Resource:** [AIGateway](../resources/AIGateway.md)
-**Chat with backend model**
+**Create chat completion**
 **Operation ID:** `post--v1-chat-completions`
 
-Sends a chat completion request to the backend model and returns the response
+Sends an OpenAI-compatible chat completion request to the backend model and returns the response. Streams Server-Sent Events when `stream: true`.
 
 ## Request Body
 
@@ -20,14 +20,12 @@ Chat completion request
 
 | Status | Description |
 |--------|-------------|
-| 200 | OK |
+| 200 | Server-Sent Events stream when stream=true |
 | 400 | Bad request |
+| 402 | Insufficient balance |
 | 404 | Model not found |
+| 429 | Usage limit exceeded |
 | 500 | Internal server error |
-
-**Success Response Schema:**
-
-[openai.ChatCompletionChunk](../schemas/openai-ChatCompletionChunk/openai-ChatCompletionChunk.md)
 
 ## Security
 

@@ -32,6 +32,3 @@ Sends an OpenAI-compatible multipart audio transcription request to the backend 
 
 [types.Response](../schemas/types-Response/types-Response.md)
 
-## Security
-
-- **ApiKey**

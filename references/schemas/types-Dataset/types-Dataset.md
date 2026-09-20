@@ -6,8 +6,11 @@
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
-| `can_manage` | boolean | No |  |
+| `can_admin` | boolean | No |  |
+| `can_read` | boolean | No |  |
 | `can_write` | boolean | No |  |
+| `commercial_permission` | [types.CommercialPermission](types-CommercialPermission.md) | No |  |
+| `compliance_status` | [types.ComplianceStatus](types-ComplianceStatus.md) | No |  |
 | `created_at` | string | No |  |
 | `csg_path` | string | No |  |
 | `current_application` | [types.DatasetApplication](types-DatasetApplication.md) | No |  |

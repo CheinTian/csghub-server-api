@@ -33,6 +33,3 @@ Edits images with an OpenAI-compatible multipart/form-data request
 
 [types.ImageGenerationResponse](../schemas/types-ImageGenerationResponse/types-ImageGenerationResponse.md)
 
-## Security
-
-- **ApiKey**

@@ -9,6 +9,7 @@
 | `cluster_id` | string | No |  |
 | `deploy_name` | string | No |  |
 | `engine_args` | string | No |  |
+| `engine_version` | string | No |  |
 | `entrypoint` | string | No |  |
 | `env` | string | No |  |
 | `max_replica` | integer | No |  |

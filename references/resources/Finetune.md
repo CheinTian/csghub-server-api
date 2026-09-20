@@ -4,6 +4,7 @@
 
 | Method | Path | Summary | Details |
 |--------|------|---------|----------|
+| POST | `/finetuneV2` | run finetune with CPU transfer stages | [View](../operations/post-finetuneV2.md) |
 | POST | `/finetunes` | run fineune with model and dataset | [View](../operations/post-finetunes.md) |
 | GET | `/finetunes/{id}` | get Finetune job by id | [View](../operations/get-finetunes-id.md) |
 | DELETE | `/finetunes/{id}` | delete finetune job by id | [View](../operations/delete-finetunes-id.md) |

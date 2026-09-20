@@ -8,7 +8,8 @@
 |-------|------|----------|-------------|
 | `avatar_url` | string | No |  |
 | `build_cmds` | string | No |  |
-| `can_manage` | boolean | No |  |
+| `can_admin` | boolean | No |  |
+| `can_read` | boolean | No |  |
 | `can_write` | boolean | No |  |
 | `configuration` | string | No |  |
 | `created_at` | string | No |  |

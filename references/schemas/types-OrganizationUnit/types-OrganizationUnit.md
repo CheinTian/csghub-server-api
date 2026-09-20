@@ -11,8 +11,8 @@
 | `depth` | integer | No |  |
 | `description` | string | No |  |
 | `homepage` | string | No |  |
+| `is_hierarchical` | boolean | No | IsHierarchical reports whether this organization belongs to a hierarchy. |
 | `is_root` | boolean | No |  |
-| `is_unit` | boolean | No |  |
 | `logo` | string | No |  |
 | `name` | string | No |  |
 | `namespace` | [types.Namespace](types-Namespace.md) | No |  |

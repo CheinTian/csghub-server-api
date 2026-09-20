@@ -10,7 +10,8 @@ Get all agent knowledge bases for the current user with filtering and pagination
 
 | Name | In | Type | Required | Description |
 |------|------|------|----------|-------------|
-| `search` | query | string | No | Search term for name field |
+| `search` | query | string | No | Search term for name and description fields |
+| `type` | query | enum: llmwiki, langflow | No | Filter by knowledge base type |
 | `public` | query | boolean | No | Filter by public status |
 | `editable` | query | boolean | No | Filter by editable status (true = owned by user, false = not owned by user) |
 | `per` | query | integer | No | Items per page |

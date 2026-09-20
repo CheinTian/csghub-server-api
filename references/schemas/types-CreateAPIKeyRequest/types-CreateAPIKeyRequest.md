@@ -8,7 +8,5 @@
 |-------|------|----------|-------------|
 | `expired_at` | string | No |  |
 | `name` | string | Yes |  |
-| `quota` | number | No |  |
-| `quota_type` | [types.AccountingQuotaType](types-AccountingQuotaType.md) | Yes |  |
-| `quota_value_type` | [types.AccountingQuotaValueType](types-AccountingQuotaValueType.md) | Yes |  |
+| `quotas` | types.UpdateAPIKeyQuotaItem[] | Yes | Quotas supports submitting multiple quota records in one request. |
 
