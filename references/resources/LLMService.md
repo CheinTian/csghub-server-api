@@ -6,9 +6,11 @@
 |--------|------|---------|----------|
 | GET | `/config/llms` | Get LLM Config | [View](../operations/get-config-llms.md) |
 | POST | `/config/llms` | Create LLM Config | [View](../operations/post-config-llms.md) |
+| GET | `/config/llms/logs` | List AI Gateway model request logs | [View](../operations/get-config-llms-logs.md) |
 | GET | `/config/llms/{id}` | Get detail of llm config by id | [View](../operations/get-config-llms-id.md) |
 | PUT | `/config/llms/{id}` | Update LLM Config | [View](../operations/put-config-llms-id.md) |
 | DELETE | `/config/llms/{id}` | Delete LLM Config | [View](../operations/delete-config-llms-id.md) |
+| GET | `/config/llms/{id}/queue_status` | Get upstream queue status of an LLM config | [View](../operations/get-config-llms-id-queue-status.md) |
 | GET | `/config/prompt_prefixes` | Get Prompt Config | [View](../operations/get-config-prompt-prefixes.md) |
 | POST | `/config/prompt_prefixes` | Create Prompt Config | [View](../operations/post-config-prompt-prefixes.md) |
 | GET | `/config/prompt_prefixes/{id}` | Get detail of prompt config by id | [View](../operations/get-config-prompt-prefixes-id.md) |
@@ -17,5 +19,5 @@
 | POST | `/config/upstreams` | Create Upstream | [View](../operations/post-config-upstreams.md) |
 | PUT | `/config/upstreams/{id}` | Update Upstream | [View](../operations/put-config-upstreams-id.md) |
 | DELETE | `/config/upstreams/{id}` | Delete Upstream | [View](../operations/delete-config-upstreams-id.md) |
-| POST | `/config/upstreams/{id}/test` | Test Upstream Connection | [View](../operations/post-config-upstreams-id-test.md) |
+| POST | `/config/upstreams/{id}/check` | Test Upstream Connection | [View](../operations/post-config-upstreams-id-check.md) |
 | GET | `/external_llms` | List External LLMs | [View](../operations/get-external-llms.md) |

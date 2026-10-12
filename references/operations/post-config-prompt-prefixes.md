@@ -4,7 +4,7 @@
 **Create Prompt Config**
 **Operation ID:** `post--config-prompt_prefixes`
 
-Create PromptPrefix in database according to prompt in Chinese, prompt in English, prompt kind
+Create a prompt prefix. Requires system/system_config administrator permission.
 
 ## Request Body
 

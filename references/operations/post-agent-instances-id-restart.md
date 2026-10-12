@@ -17,6 +17,7 @@ Recreate an agent instance's backing sandbox on its current hardware resource (c
 | Status | Description |
 |--------|-------------|
 | 200 | OK |
+| 202 | Deletion accepted |
 | 400 | Bad request |
 | 403 | Forbidden |
 | 500 | Internal server error |

@@ -4,7 +4,7 @@
 **Get running deploy statistics**
 **Operation ID:** `get--stat-running-deploys`
 
-Retrieve the number of running deployments, CPU usage, and GPU usage per project
+Retrieve the number of running deployments, CPU usage, and GPU usage per project. Requires system/dashboard admin permission.
 
 ## Responses
 
@@ -12,6 +12,7 @@ Retrieve the number of running deployments, CPU usage, and GPU usage per project
 |--------|-------------|
 | 200 | OK |
 | 401 | Unauthorized |
+| 403 | Forbidden |
 | 500 | Internal server error |
 
 ## Security

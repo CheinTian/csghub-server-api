@@ -1,21 +1,20 @@
 # PUT /accounting/credit/{id}/recharge
 
 **Resource:** [Accounting](../resources/Accounting.md)
-**Recharge fee for account**
+**Recharge an active user's account**
 **Operation ID:** `put--accounting-credit-{id}-recharge`
 
-Recharge fee for account, used for admin
+Requires account/user permission and an active personal user UUID; organization targets are rejected with 403. The authenticated operator overrides client identity fields.
 
 ## Parameters
 
 | Name | In | Type | Required | Description |
 |------|------|------|----------|-------------|
-| `id` | path | string | Yes | user uuid |
-| `current_user` | query | string | Yes | current_user |
+| `id` | path | string | Yes | Active personal user UUID |
 
 ## Request Body
 
-body
+Recharge amount, scene, purpose and optional purpose description; op_uid is ignored
 
 **Required:** Yes
 
@@ -29,6 +28,8 @@ body
 |--------|-------------|
 | 200 | OK |
 | 400 | Bad request |
+| 401 | Unauthorized |
+| 403 | Forbidden target or insufficient permission |
 | 500 | Internal server error |
 
 **Success Response Schema:**

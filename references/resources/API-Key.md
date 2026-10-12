@@ -10,3 +10,4 @@
 | GET | `/namespaces/{uuid}/apikeys/builtin` | Get or create builtin API key for an organization or user namespace | [View](../operations/get-namespaces-uuid-apikeys-builtin.md) |
 | PUT | `/namespaces/{uuid}/apikeys/builtin/refresh` | Refresh builtin API key for an organization or user namespace | [View](../operations/put-namespaces-uuid-apikeys-builtin-refresh.md) |
 | PUT | `/namespaces/{uuid}/apikeys/{id}` | Update an API key for an organization or user | [View](../operations/put-namespaces-uuid-apikeys-id.md) |
+| PUT | `/namespaces/{uuid}/apikeys/{id}/status` | Enable or disable an API key for an organization or user | [View](../operations/put-namespaces-uuid-apikeys-id-status.md) |

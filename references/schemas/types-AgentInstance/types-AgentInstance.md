@@ -16,9 +16,12 @@
 | `is_pinned` | boolean | No | Whether the instance is pinned by the user |
 | `is_running` | boolean | No | Whether the instance is running |
 | `is_shared` | boolean | No | Whether the instance has been shared via agent_shares |
+| `kind` | [types.AgentInstanceKind](types-AgentInstanceKind.md) | No |  |
 | `metadata` | object | No | Instance metadata |
+| `mode` | [types.AgentServingMode](types-AgentServingMode.md) | No |  |
 | `name` | string | No | Instance name |
 | `public` | boolean | No | Whether the instance is public |
+| `storage_policy` | [types.AgentStoragePolicy](types-AgentStoragePolicy.md) | No |  |
 | `template_id` | integer | No | Associated with the id in the template table |
 | `type` | string | No | Possible values: langflow, agno, code, etc. |
 | `updated_at` | string | No | When the instance was last updated |

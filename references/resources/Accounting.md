@@ -10,7 +10,7 @@
 | GET | `/accounting/credit/{id}/balance` | Get user balance by user uuid | [View](../operations/get-accounting-credit-id-balance.md) |
 | GET | `/accounting/credit/{id}/bills` | List user bills by user uuid and start date and end date | [View](../operations/get-accounting-credit-id-bills.md) |
 | GET | `/accounting/credit/{id}/bills/instance` | List user bills detail by user uuid, instance name, start date and end date | [View](../operations/get-accounting-credit-id-bills-instance.md) |
-| PUT | `/accounting/credit/{id}/recharge` | Recharge fee for account | [View](../operations/put-accounting-credit-id-recharge.md) |
+| PUT | `/accounting/credit/{id}/recharge` | Recharge an active user's account | [View](../operations/put-accounting-credit-id-recharge.md) |
 | GET | `/accounting/credit/{id}/recharge/list` | List recharges by user or org uuid and start time and end time | [View](../operations/get-accounting-credit-id-recharge-list.md) |
 | GET | `/accounting/credit/{id}/statements` | List statements by user uuid and start time and end time | [View](../operations/get-accounting-credit-id-statements.md) |
 | POST | `/accounting/credit/{uuid}/deduct` | Sync deduct credit | [View](../operations/post-accounting-credit-uuid-deduct.md) |
@@ -50,6 +50,13 @@
 | GET | `/accounting/subscriptions/bills` | List bills by user uuid and start time and end time | [View](../operations/get-accounting-subscriptions-bills.md) |
 | GET | `/accounting/subscriptions/status` | Get user subscription status | [View](../operations/get-accounting-subscriptions-status.md) |
 | GET | `/accounting/subscriptions/status/batch` | Get a bunch of subscriptions status | [View](../operations/get-accounting-subscriptions-status-batch.md) |
+| PUT | `/accounting/token-plans/{uuid}/cancel` | Cancel token plan for a namespace | [View](../operations/put-accounting-token-plans-uuid-cancel.md) |
+| GET | `/accounting/token-plans/{uuid}/get` | Get current token plan for a namespace | [View](../operations/get-accounting-token-plans-uuid-get.md) |
+| GET | `/accounting/token-plans/{uuid}/history` | List token plan history for a namespace | [View](../operations/get-accounting-token-plans-uuid-history.md) |
+| GET | `/accounting/token-plans/{uuid}/list` | List token plans for a namespace | [View](../operations/get-accounting-token-plans-uuid-list.md) |
+| POST | `/accounting/token-plans/{uuid}/purchase` | Purchase a token plan for a namespace | [View](../operations/post-accounting-token-plans-uuid-purchase.md) |
+| PUT | `/accounting/token-plans/{uuid}/update` | Update namespace token plan | [View](../operations/put-accounting-token-plans-uuid-update.md) |
+| PUT | `/accounting/token-plans/{uuid}/upgrade` | Upgrade token plan for a namespace | [View](../operations/put-accounting-token-plans-uuid-upgrade.md) |
 | GET | `/accounting/token-report` | Token operations report: daily rows by namespace, API key, model and provider | [View](../operations/get-accounting-token-report.md) |
 | GET | `/accounting/token-report/export` | Export token operations report as CSV (streaming) | [View](../operations/get-accounting-token-report-export.md) |
 | GET | `/accounting/vouchers` | List vouchers | [View](../operations/get-accounting-vouchers.md) |

@@ -10,6 +10,7 @@
 | `created_at` | string | No |  |
 | `expire_at` | string | No |  |
 | `id` | integer | No |  |
+| `is_active` | boolean | No |  |
 | `ns_uuid` | string | No |  |
 | `permission` | string | No |  |
 | `quotas` | types.AccountAccessTokenQuotaResp[] | No |  |

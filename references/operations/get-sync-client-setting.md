@@ -4,7 +4,7 @@
 **Get sync client setting**
 **Operation ID:** `get--sync-client_setting`
 
-Get sync client setting, used for admin
+Requires asset/sync administrator permission and a valid license.
 
 ## Responses
 
@@ -12,6 +12,8 @@ Get sync client setting, used for admin
 |--------|-------------|
 | 200 | OK |
 | 400 | Bad request |
+| 401 | Unauthorized |
+| 403 | Forbidden |
 | 500 | Internal server error |
 
 ## Security

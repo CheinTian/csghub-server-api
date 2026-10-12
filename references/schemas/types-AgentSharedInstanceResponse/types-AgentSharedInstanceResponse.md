@@ -12,6 +12,7 @@
 | `guest_usage_limit` | [types.GuestUsageLimit](types-GuestUsageLimit.md) | No |  |
 | `id` | integer | No |  |
 | `instance_id` | integer | No |  |
+| `kind` | [types.AgentInstanceKind](types-AgentInstanceKind.md) | No |  |
 | `name` | string | No |  |
 | `shared_sandbox_name` | string | No |  |
 | `type` | string | No |  |

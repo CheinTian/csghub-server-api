@@ -4,7 +4,7 @@
 **Get stat snapshot**
 **Operation ID:** `get--stat-snapshot`
 
-Retrieve statistical snapshot for a given target and date type
+Retrieve statistical snapshot for a given target and date type. Requires system/dashboard admin permission.
 
 ## Parameters
 
@@ -19,6 +19,8 @@ Retrieve statistical snapshot for a given target and date type
 |--------|-------------|
 | 200 | OK |
 | 400 | Bad request |
+| 401 | Unauthorized |
+| 403 | Forbidden |
 | 500 | Internal server error |
 
 ## Security

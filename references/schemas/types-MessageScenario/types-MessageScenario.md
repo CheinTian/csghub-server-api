@@ -16,6 +16,7 @@
 - `recharge`
 - `low-balance`
 - `recharge-success`
+- `recharge-success-remind`
 - `weekly-recharges`
 - `llmlog-sync`
 - `llmlog-curated-dataflow`
@@ -29,6 +30,7 @@
 - `agent-instance-updated`
 - `agent-instance-deleted`
 - `invoice-created`
+- `invoice-issued`
 - `csgbot-critical-error`
 - `agentichub-feedback`
 - `model-dataset-recommend`

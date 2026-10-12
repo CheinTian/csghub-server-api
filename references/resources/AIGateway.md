@@ -22,6 +22,7 @@
 | POST | `/v1/ocr` | OCR | [View](../operations/post-v1-ocr.md) |
 | POST | `/v1/rerank` | Rerank | [View](../operations/post-v1-rerank.md) |
 | POST | `/v1/responses` | Create a model response | [View](../operations/post-v1-responses.md) |
+| POST | `/v1/systemone` | Jev System One API | [View](../operations/post-v1-systemone.md) |
 | POST | `/v1/video/generations` | Create a video generation | [View](../operations/post-v1-video-generations.md) |
 | GET | `/v1/video/generations/{video_id}` | Get a video generation | [View](../operations/get-v1-video-generations-video-id.md) |
 | GET | `/v1/video/generations/{video_id}/content` | Download generated video content | [View](../operations/get-v1-video-generations-video-id-content.md) |

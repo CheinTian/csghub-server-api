@@ -8,6 +8,7 @@
 | GET | `/accounting/invoice/admin/{id}` | Get an invoice by ID for administrators.(only admin) | [View](../operations/get-accounting-invoice-admin-id.md) |
 | PUT | `/accounting/invoice/admin/{id}` | Update invoice information (admin) | [View](../operations/put-accounting-invoice-admin-id.md) |
 | DELETE | `/accounting/invoice/admin/{id}` | Delete an invoice by admin | [View](../operations/delete-accounting-invoice-admin-id.md) |
+| POST | `/accounting/invoice/admin/{id}/send` | Send invoice email to the user (admin) | [View](../operations/post-accounting-invoice-admin-id-send.md) |
 | GET | `/accounting/invoice/title/types` | Get the list of invoice title types | [View](../operations/get-accounting-invoice-title-types.md) |
 | PUT | `/accounting/invoice/title/{id}` | Update invoice title | [View](../operations/put-accounting-invoice-title-id.md) |
 | DELETE | `/accounting/invoice/title/{id}` | Delete invoice title. | [View](../operations/delete-accounting-invoice-title-id.md) |

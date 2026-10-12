@@ -21,6 +21,7 @@ Establishes a Server-Sent Events (SSE) connection to stream real-time status upd
 | 401 | Unauthorized - authentication required |
 | 403 | Forbidden - current user does not have permission to access this sandbox |
 | 404 | Sandbox not found |
+| 409 | Attached agent runtimes must be managed through the agent API |
 | 500 | Internal server error - failed to establish SSE connection or retrieve sandbox status |
 
 ## Security

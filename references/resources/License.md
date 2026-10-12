@@ -4,6 +4,7 @@
 
 | Method | Path | Summary | Details |
 |--------|------|---------|----------|
+| GET | `/internal/licenses/status` | Get active license status for internal services | [View](../operations/get-internal-licenses-status.md) |
 | GET | `/licenses` | List license | [View](../operations/get-licenses.md) |
 | PUT | `/licenses/import` | Import a license | [View](../operations/put-licenses-import.md) |
 | POST | `/licenses/management` | Create a license | [View](../operations/post-licenses-management.md) |

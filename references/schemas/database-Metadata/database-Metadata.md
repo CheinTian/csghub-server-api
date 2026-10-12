@@ -9,6 +9,11 @@
 | `architecture` | string | No |  |
 | `class_name` | string | No |  |
 | `created_at` | string | No |  |
+| `has_mtp_weights` | boolean | No | Multi-token prediction detection results (see types.HasMTPWeights).
+NumNextNPredictLayers pins the column explicitly: bun's default
+underscore rule would derive num_next_n_predict_layers from the field
+name, but the migration (and the DeepSeek config.json key) spell it
+num_nextn_predict_layers. |
 | `id` | integer | No |  |
 | `mini_gpu_finetune_gb` | number | No |  |
 | `mini_gpu_memory_gb` | number | No |  |
@@ -16,6 +21,7 @@
 | `model_params` | number | No |  |
 | `model_params_valid` | boolean | No |  |
 | `model_type` | string | No |  |
+| `num_nextn_predict_layers` | integer | No |  |
 | `pd_recommendation` | [types.PDRecommendation](types-PDRecommendation.md) | No |  |
 | `quantizations` | types.Quantization[] | No |  |
 | `repository` | [database.Repository](database-Repository.md) | No |  |

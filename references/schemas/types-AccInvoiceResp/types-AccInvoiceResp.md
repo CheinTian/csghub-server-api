@@ -13,6 +13,9 @@
 | `contact_phone` | string | No | Contact phone number |
 | `created_at` | string | No | Creation time |
 | `email` | string | No | Email address |
+| `email_send_status` | string | No | EmailSendStatus is none/sent/failed; EmailSentAt is the timestamp of the
+last successful send, null when no email has been sent yet. |
+| `email_sent_at` | string | No |  |
 | `id` | integer | No |  |
 | `invoice_amount` | number | No | Invoice amount |
 | `invoice_date` | string | No | Invoice issuance date |

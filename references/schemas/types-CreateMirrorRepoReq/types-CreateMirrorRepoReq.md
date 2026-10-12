@@ -7,6 +7,9 @@
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
 | `access_token` | string | No | AccessToken is the upstream Git HTTP access token. |
+| `auto_create_organization` | boolean | No | AutoCreateOrganization is the admin user's choice, accepted from the
+admin-protected /mirror/repo request body. Nil preserves the legacy default
+of allowing organization creation when older clients omit the field. |
 | `branch` | string | No |  |
 | `create_target_repo` | boolean | No | CreateTargetRepo controls target repository creation. Nil selects automatically,
 true requires a new target, and false requires an existing target. |

@@ -4,7 +4,7 @@
 **Get detail of prompt config by id**
 **Operation ID:** `get--config-prompt_prefixes-{id}`
 
-Use PromptPrefix.ID to retrieve in database
+Retrieve a prompt prefix by ID. Requires system/system_config administrator permission.
 
 ## Parameters
 

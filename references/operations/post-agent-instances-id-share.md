@@ -4,7 +4,7 @@
 **Share a public agent instance**
 **Operation ID:** `post--agent-instances-{id}-share`
 
-Create an anonymous share for a public agent instance
+Create a new anonymous share link for a public agent instance. Each call creates another link.
 
 ## Parameters
 

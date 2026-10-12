@@ -17,6 +17,7 @@ Permanently delete an agent instance
 | Status | Description |
 |--------|-------------|
 | 200 | OK |
+| 202 | Deletion accepted |
 | 400 | Bad request |
 | 403 | Forbidden |
 | 500 | Internal server error |

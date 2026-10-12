@@ -4,7 +4,7 @@
 **Update user. If change user name, should only send 'new_username' in the request body.**
 **Operation ID:** `put--user-{id}`
 
-update user
+Update user profile fields. Role assignments are managed through administrator role APIs.
 
 ## Parameters
 

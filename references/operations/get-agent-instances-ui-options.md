@@ -8,6 +8,7 @@
 
 | Name | In | Type | Required | Description |
 |------|------|------|----------|-------------|
+| `namespace` | query | string | No | Namespace filter |
 | `per` | query | integer | No | Page size |
 | `page` | query | integer | No | Page |
 

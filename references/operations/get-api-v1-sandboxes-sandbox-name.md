@@ -18,6 +18,7 @@ Retrieves details of a specific sandbox
 |--------|-------------|
 | 200 | Sandbox details |
 | 404 | Sandbox not found |
+| 409 | Attached agent runtimes must be managed through the agent API |
 
 **Success Response Schema:**
 

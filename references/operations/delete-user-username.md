@@ -4,6 +4,8 @@
 **Delete user**
 **Operation ID:** `delete--user-{username}`
 
+Active administrator roles must be revoked before deletion. This endpoint schedules an asynchronous workflow; administrator membership is checked again in the deletion transaction before related data is removed.
+
 ## Parameters
 
 | Name | In | Type | Required | Description |

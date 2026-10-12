@@ -4,7 +4,7 @@
 **Get Prompt Config**
 **Operation ID:** `get--config-prompt_prefixes`
 
-Get PromptPrefix in database. Return a list of prompt prefixes with optional filtering by keyword and kind.
+Get prompt prefixes with optional filters. Requires system/system_config administrator permission.
 
 ## Parameters
 

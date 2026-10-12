@@ -12,9 +12,12 @@
 | `enabled` | boolean | No |  |
 | `health_check_enabled` | boolean | No |  |
 | `id` | integer | No |  |
+| `is_full_url` | boolean | No | IsFullURL/SupportedEndpoints follow the pointer contract above: nil =
+omitted (keep stored value), non-nil = replace. |
 | `metadata` | [types.UpstreamMetadata](types-UpstreamMetadata.md) | No |  |
 | `model_name` | string | No |  |
 | `provider` | string | No |  |
+| `supported_endpoints` | object | No |  |
 | `tags` | object | No |  |
 | `url` | string | No |  |
 | `weight` | integer | No |  |

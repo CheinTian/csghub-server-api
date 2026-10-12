@@ -11,6 +11,7 @@
 | `source_namespace` | query | string | Yes | source namespace |
 | `source_name` | query | string | Yes | source name |
 | `repo_type` | query | string | Yes | repo type (model, dataset, code) |
+| `target_namespace` | query | string | No | target namespace override |
 
 ## Responses
 

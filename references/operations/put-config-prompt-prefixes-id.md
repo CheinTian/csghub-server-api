@@ -4,7 +4,7 @@
 **Update Prompt Config**
 **Operation ID:** `put--config-prompt_prefixes-{id}`
 
-Update existing prompt prefix by ID, supports partial updates of Chinese prompt (zh), English prompt (en) and kind fields. Return the updated prompt prefix. If the provided ID does not exist, it returns an error.
+Update an existing prompt prefix by ID. Requires system/system_config administrator permission.
 
 ## Parameters
 

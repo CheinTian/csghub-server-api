@@ -4,7 +4,7 @@
 **Delete Prompt Config**
 **Operation ID:** `delete--config-prompt_prefixes-{id}`
 
-Use PromptPrefix.ID to Delete PromptPrefix in database
+Delete a prompt prefix by ID. Requires system/system_config administrator permission.
 
 ## Parameters
 

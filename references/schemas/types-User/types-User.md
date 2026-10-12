@@ -13,6 +13,8 @@
 | `email` | string | No |  |
 | `homepage` | string | No |  |
 | `id` | integer | No |  |
+| `is_admin` | boolean | No | Admin identifies membership in an existing administrator role, regardless of its grants. |
+| `is_super_admin` | boolean | No | SuperAdmin identifies an active role assignment granting the global wildcard permission. |
 | `labels` | string[] | No |  |
 | `last_login_at` | string | No |  |
 | `namespaces` | types.Namespace[] | No |  |

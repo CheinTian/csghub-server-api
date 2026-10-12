@@ -20,6 +20,7 @@ Stops a specific sandbox
 | 400 | Bad request |
 | 403 | Forbidden |
 | 404 | Sandbox not found |
+| 409 | Attached agent runtimes must be managed through the agent API |
 | 500 | Internal server error |
 
 **Success Response Schema:**
